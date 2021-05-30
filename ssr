@@ -7,7 +7,6 @@ proxies:
   - {name: 🇨🇳 台湾13, server: 54.249.169.150, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇭🇰 香港B 三网直连, server: vip345.xyz, port: 39007, type: vmess, uuid: a0f416e2-6613-3fef-bc1c-b5778700e1e0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
   - {name: 🇭🇰 香港D 三网直连, server: vip345.xyz, port: 39009, type: vmess, uuid: a0f416e2-6613-3fef-bc1c-b5778700e1e0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇭🇰 香港 1赞助版, server: hk1.xcwlv2r.xyz, port: 30007, type: vmess, uuid: 373e1c16-b810-3838-b6e7-bb6a3a7ee28c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
   - {name: 🇭🇰 香港, server: vip345.xyz, port: 39009, type: vmess, uuid: 96334a28-34ae-3dd3-8801-60534a0a67b5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
   - {name: 🇭🇰 香港流媒体（极点）, server: az1.keaiyun.xyz, port: 31101, type: vmess, uuid: c6583bd1-c9d8-3559-821e-c7e68c166840, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
   - {name: 🇭🇰 香港1（极点）, server: az1.keaiyun.xyz, port: 55100, type: vmess, uuid: c6583bd1-c9d8-3559-821e-c7e68c166840, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
