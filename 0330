@@ -1,0 +1,19 @@
+proxies:
+  - {name: 🇨🇳 台湾1, server: 54.179.249.239, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 台湾2, server: 52.68.174.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 台湾3, server: 3.35.18.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 台湾5, server: 3.113.26.234, port: 444, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 台湾11, server: 18.183.194.107, port: 446, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇨🇳 台湾13, server: 54.249.169.150, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 香港B 三网直连, server: vip345.xyz, port: 39007, type: vmess, uuid: a0f416e2-6613-3fef-bc1c-b5778700e1e0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
+  - {name: 🇭🇰 香港D 三网直连, server: vip345.xyz, port: 39009, type: vmess, uuid: a0f416e2-6613-3fef-bc1c-b5778700e1e0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
+  - {name: 🇭🇰 香港 1赞助版, server: hk1.xcwlv2r.xyz, port: 30007, type: vmess, uuid: 373e1c16-b810-3838-b6e7-bb6a3a7ee28c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: 🇭🇰 香港, server: vip345.xyz, port: 39009, type: vmess, uuid: 96334a28-34ae-3dd3-8801-60534a0a67b5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
+  - {name: 🇭🇰 香港流媒体（极点）, server: az1.keaiyun.xyz, port: 31101, type: vmess, uuid: c6583bd1-c9d8-3559-821e-c7e68c166840, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 香港1（极点）, server: az1.keaiyun.xyz, port: 55100, type: vmess, uuid: c6583bd1-c9d8-3559-821e-c7e68c166840, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 香港3（极点）, server: az1.keaiyun.xyz, port: 55102, type: vmess, uuid: c6583bd1-c9d8-3559-821e-c7e68c166840, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 英国 1（MisakaNo 自由之梦福利节点）, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 64, cipher: auto, tls: false}
+  - {name: 波兰 1（MisakaNo 自由之梦福利节点）, server: 95.214.55.119, port: 16408, type: vmess, uuid: 4e49e7c6-b7cd-4c74-c022-2add80a19556, alterId: 64, cipher: auto, tls: false}
+  - {name: 韩国 1（MisakaNo 自由之梦福利节点）, server: 13.125.249.11, port: 21534, type: vmess, uuid: 0ef8a9d9-af9b-484f-d144-f432baf6964a, alterId: 64, cipher: auto, tls: false}
+  - {name: 新加坡 1（MisakaNo 自由之梦福利节点）, server: 45.88.42.22, port: 54068, type: vmess, uuid: 83f7d4a0-a787-4cff-fb37-fa9e556b24d4, alterId: 64, cipher: auto, tls: false}
+  - {name: 新加坡 2（MisakaNo 自由之梦福利节点）, server: 54.169.101.136, port: 48623, type: vmess, uuid: 404b831b-ff94-4793-b433-34c5b48dc73e, alterId: 64, cipher: auto, tls: false}
