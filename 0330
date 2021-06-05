@@ -89,3 +89,5 @@ proxies:
   - {name: 🇫🇷 FR 🇫🇷 Paris 2, server: 143.244.57.89, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 🇺🇲 US 🇺🇸 New York 3, server: 84.17.35.118, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: GB 🇬🇧 Glasgow 1, server: 185.108.105.75, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1597, server: hk.linn.ink, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: 39341fe7-b8b7-4605-a811-af1f1d46d4fb}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1636, server: hk.linn.ink, port: 100, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: true}
