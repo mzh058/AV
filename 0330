@@ -84,6 +84,3 @@ proxies:
   - {name: 🇺🇲 蜜蜂加速器 美国 3, server: 23.224.30.74, port: 443, type: vmess, uuid: 2834e187-5f34-4527-a436-df7682a89975, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.74647691.xyz}}
   - {name: 🇺🇲 蜜蜂加速器 美国 4, server: 23.225.28.171, port: 443, type: vmess, uuid: da31df4d-3477-4064-884b-e6ff947ac117, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1614, server: nf10.yeen.ga, port: 443, type: vmess, uuid: d9d856e2-d1c6-340a-a45a-6fb5a8513156, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dl, ws-headers: {Host: nf10.yeen.ga}}
-  - {name: 🇭🇰 Pool_🇭🇰HK_1576, server: 212.102.42.194, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇭🇰 Pool_🇭🇰HK_1580, server: 212.102.42.199, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1628, server: hk.linn.ink, port: 100, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: true}
