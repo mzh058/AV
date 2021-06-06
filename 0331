@@ -1,6 +1,11 @@
 proxies:
+  - {name: 🇰🇷 韩国-首尔BGP线路1, server: 3.34.42.84, port: 443, type: trojan, password: TYBNwaSqn4Xb9msf, sni: skr1.bingbinghouse.com}
+  - {name: 🇰🇷 韩国-首尔BGP线路2, server: 3.36.125.47, port: 443, type: trojan, password: RYh2rMKOIuhUqehs, sni: skr2.bingbinghouse.com}
+  - {name: 🇯🇵 日本-东京BGP线路1, server: 89.31.125.212, port: 443, type: trojan, password: b6nAWUk8cmqRRjxs, sni: jp1.bingbinghouse.com}
+  - {name: 🇨🇳 中国-上海线路1, server: 139.196.54.232, port: 9938, type: ss, cipher: aes-256-gcm, password: gXpd6OdY3IJsJaOh}
+  - {name: 🇨🇳 中国-上海线路2, server: 101.132.120.15, port: 15334, type: ss, cipher: aes-256-gcm, password: SHqmLIwKYBDzrVaz}
+  - {name: 🇨🇳 中国-广州线路3, server: 47.119.139.234, port: 18905, type: ss, cipher: aes-256-gcm, password: TSCZafCAf1Z53LH5}
   - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_543, server: bj.lygvpn.xyz, port: 10002, type: vmess, uuid: 9275dbd5-5bbb-35c7-9ca7-a7afddf0d496, alterId: 16, cipher: auto, tls: false}
-  - {name: 🇸🇬 Relay_🇨🇳CN-🇸🇬SG_544, server: 52.80.216.174, port: 10006, type: vmess, uuid: 9275dbd5-5bbb-35c7-9ca7-a7afddf0d496, alterId: 16, cipher: auto, tls: false}
   - {name: 🇺🇲 Relay_🇨🇳CN-🇺🇸US_549, server: bj.lygvpn.xyz, port: 10009, type: vmess, uuid: 9275dbd5-5bbb-35c7-9ca7-a7afddf0d496, alterId: 16, cipher: auto, tls: false}
   - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_556, server: gy.linn.ink, port: 20010, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1616, server: agals01.cloudddns.icu, port: 808, type: vmess, uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /public, ws-headers: {Host: agals01.cloudddns.icu}}
@@ -23,8 +28,6 @@ proxies:
   - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1614, server: nf10.yeen.ga, port: 443, type: vmess, uuid: d9d856e2-d1c6-340a-a45a-6fb5a8513156, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /dl, ws-headers: {Host: nf10.yeen.ga}}
   - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1636, server: hk.linn.ink, port: 100, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾132558, server: 194.39.127.173, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 🇨🇳 台湾133998, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 🇨🇳 台湾31572 8, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
   - {name: 🇨🇳 台湾31944 4, server: 103.148.242.170, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: 🇨🇳 台湾31944 5, server: 103.148.242.170, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: 🇨🇳 台湾32843, server: 62.212.239.69, port: 32843, type: ss, cipher: aes-256-gcm, password: G35YSR2LFNEM9bq2dkjmKQRr}
