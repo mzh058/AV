@@ -1,60 +1,49 @@
 proxies:
-  - {name: 🇭🇰 电报群@freeyule, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 456278696924282880, password: 9c08b1b3-f523-4edc-8c89-38f9a75f7cc4, tls: true}
-  - {name: 🇭🇰 防丢节点@freeyule, server: a1.er3.xyz, port: 29980, type: http, username: 456278696924282880, password: 9c08b1b3-f523-4edc-8c89-38f9a75f7cc4, tls: true, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾31944 4, server: 103.148.242.170, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇨🇳 台湾33184 2, server: 191.96.15.88, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇨🇳 台湾33998 2, server: 191.96.15.88, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 🇨🇳 台湾33998 9, server: 138.199.42.157, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 🇸🇬 新加坡 1（MisakaNo 自由之梦福利节点）, server: 45.88.42.22, port: 54068, type: vmess, uuid: 83f7d4a0-a787-4cff-fb37-fa9e556b24d4, alterId: 64, cipher: auto, tls: false}
+  - {name:  🇭🇰  电报群@freeyule, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 456278696924282880, password: 9c08b1b3-f523-4edc-8c89-38f9a75f7cc4, tls: true}
+  - {name:  🇭🇰  防丢节点@freeyule, server: a1.er3.xyz, port: 29980, type: http, username: 456278696924282880, password: 9c08b1b3-f523-4edc-8c89-38f9a75f7cc4, tls: true, skip-cert-verify: true}
   - {name: 🇳🇱 蜜蜂加速器 荷兰, server: 154.84.1.217, port: 443, type: vmess, uuid: d03a8fbf-7d51-46c3-b02d-17ff0b32e4c5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.53103739.xyz}}
   - {name: 🇳🇱 蜜蜂加速器 荷兰 4, server: 154.84.1.106, port: 443, type: vmess, uuid: a8089885-9602-4052-b1a3-1c9e02df635d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.63681459.xyz}}
   - {name: 🇳🇱 蜜蜂加速器 荷兰 7, server: 154.84.1.199, port: 443, type: vmess, uuid: 3268727a-7556-4211-8a49-2cf5c5096da4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.79570456.xyz}}
   - {name: 🇳🇱 蜜蜂加速器 荷兰 8, server: 154.84.1.116, port: 443, type: vmess, uuid: b349f65b-4b19-4255-9ee2-b679990540e7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.25936911.xyz}}
-  - {name: 🇺🇲 蜜蜂加速器 美国, server: 23.224.69.18, port: 443, type: vmess, uuid: fb7a6094-a99b-4b91-a70d-25244f5f6ac8, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.76126449.xyz}}
   - {name: 🇺🇲 蜜蜂加速器 美国 2, server: 23.224.8.91, port: 443, type: vmess, uuid: 116dbc8a-ec13-49a5-b954-d49f65630ba4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10925848.xyz}}
-  - {name: 🇭🇰 HK_2734, server: 47.240.46.71, port: 444, type: ss, cipher: aes-256-cfb, password: aliskrskr}
-  - {name: 🇭🇰 HK_1879, server: 18.162.168.190, port: 20020, type: ss, cipher: chacha20-ietf-poly1305, password: 39341fe7-b8b7-4605-a811-af1f1d46d4fb}
-  - {name: 🇭🇰 HK_1880, server: 47.240.46.71, port: 444, type: ss, cipher: aes-256-cfb, password: aliskrskr}
-  - {name: 🇭🇰 HK_2744, server: hkaz1.biteb.club, port: 51023, type: vmess, uuid: de7dc3d6-4cd7-31ea-a31a-aace7da94674, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkaz1.biteb.club}}
-  - {name: 🇭🇰 HK_2745, server: hkaz1.biteb.club, port: 51011, type: vmess, uuid: de7dc3d6-4cd7-31ea-a31a-aace7da94674, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkaz1.biteb.club}}
-  - {name: 🇭🇰 HK_2746, server: 18.162.96.154, port: 80, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: 18.162.96.154}}
-  - {name: 🇭🇰 HK_2747, server: 13.70.28.145, port: 34323, type: vmess, uuid: 5a2056b9-61c5-4737-b153-b2775ec8bad9, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_1905, server: 23.101.11.40, port: 10008, type: vmess, uuid: bb7fbc2f-bc62-4845-b874-db45d05ddd56, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ws, ws-headers: {Host: 23.101.11.40}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇸🇬SG_1908, server: 23.101.11.40, port: 10008, type: vmess, uuid: 2c6c0162-3236-477e-8ebb-cc48fa7290f1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ws, ws-headers: {Host: 23.101.11.40}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1909, server: hkaz1.biteb.club, port: 51003, type: vmess, uuid: de7dc3d6-4cd7-31ea-a31a-aace7da94674, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkaz1.biteb.club}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇷🇺RU_1912, server: vip345.xyz, port: 39018, type: vmess, uuid: ccf613d6-ce0f-355d-b1ba-c246b9b5a27e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1915, server: hkaz1.biteb.club, port: 51011, type: vmess, uuid: de7dc3d6-4cd7-31ea-a31a-aace7da94674, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkaz1.biteb.club}}
-  - {name: 🇭🇰 HK_1916, server: 18.162.168.190, port: 30030, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1921, server: hkaz3.biteb.club, port: 80, type: vmess, uuid: de7dc3d6-4cd7-31ea-a31a-aace7da94674, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkaz3.biteb.club}}
-  - {name: 🇭🇰 HK_1922, server: 18.162.96.154, port: 80, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hk, ws-headers: {Host: 18.162.96.154}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_1923, server: 23.101.11.40, port: 10003, type: vmess, uuid: 2c6c0162-3236-477e-8ebb-cc48fa7290f1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /f932c3d98981b, ws-headers: {Host: 23.101.11.40}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1924, server: hkaz1.biteb.club, port: 51031, type: vmess, uuid: de7dc3d6-4cd7-31ea-a31a-aace7da94674, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkaz1.biteb.club}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇰🇷KR_1926, server: 23.101.11.40, port: 10003, type: vmess, uuid: bb7fbc2f-bc62-4845-b874-db45d05ddd56, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /f932c3d98981b, ws-headers: {Host: 23.101.11.40}}
   - {name: 🇰🇷 KR_2452, server: 52.79.60.0, port: 44223, type: vmess, uuid: 8b409727-b3e2-4e1f-b237-12b34cfb46e3, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.79.60.0}}
-  - {name: SS综合节点, server: v2.linn.ink, port: 20020, type: ss, cipher: chacha20-ietf-poly1305, password: 39341fe7-b8b7-4605-a811-af1f1d46d4fb}
-  - {name: 🇭🇰 ①SS->HK, server: 16.162.3.11, port: 20020, type: ss, cipher: chacha20-ietf-poly1305, password: 39341fe7-b8b7-4605-a811-af1f1d46d4fb}
-  - {name: 🇭🇰 ②SS->HK, server: 18.162.168.190, port: 20020, type: ss, cipher: chacha20-ietf-poly1305, password: 39341fe7-b8b7-4605-a811-af1f1d46d4fb}
-  - {name: 🇯🇵 ①SS->JP, server: 3.112.193.158, port: 20020, type: ss, cipher: chacha20-ietf-poly1305, password: 39341fe7-b8b7-4605-a811-af1f1d46d4fb}
-  - {name: 🇯🇵 ①SS->JP 2, server: 175.41.204.200, port: 20020, type: ss, cipher: chacha20-ietf-poly1305, password: 39341fe7-b8b7-4605-a811-af1f1d46d4fb}
-  - {name: 🇺🇲 ①SS->US, server: 54.177.24.1, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: 39341fe7-b8b7-4605-a811-af1f1d46d4fb}
-  - {name: V2综合节点, server: v2.linn.ink, port: 30030, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇭🇰 ①V2->HK, server: 16.162.3.11, port: 30030, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇭🇰 ②V2->HK, server: 18.162.168.190, port: 30030, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇯🇵 ①V2->JP, server: 3.112.193.158, port: 30030, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇯🇵 ②V2->JP, server: 175.41.204.200, port: 30030, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇺🇲 ①V2->US, server: 54.177.24.1, port: 20020, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
-  - {name: 🇨🇳 中国-上海线路1, server: 139.196.54.232, port: 9938, type: ss, cipher: aes-256-gcm, password: gXpd6OdY3IJsJaOh}
-  - {name: 🇨🇳 中国-上海线路2, server: 101.132.120.15, port: 15334, type: ss, cipher: aes-256-gcm, password: SHqmLIwKYBDzrVaz}
-  - {name: 🇨🇳 中国-广州线路3, server: 47.119.139.234, port: 18905, type: ss, cipher: aes-256-gcm, password: TSCZafCAf1Z53LH5}
-  - {name: 🇺🇲 美国01, server: vip345.xyz, port: 39014, type: vmess, uuid: 231ed5ad-ea58-361a-8811-c76aa94f2cec, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}, udp: true}
-  - {name: 🇺🇲 美国02, server: vip345.xyz, port: 39015, type: vmess, uuid: 231ed5ad-ea58-361a-8811-c76aa94f2cec, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}, udp: true}
-  - {name: 🇺🇲 美国03, server: vip345.xyz, port: 39016, type: vmess, uuid: 231ed5ad-ea58-361a-8811-c76aa94f2cec, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}, udp: true}
-  - {name: 🇺🇲 美国04, server: vip345.xyz, port: 39017, type: vmess, uuid: 231ed5ad-ea58-361a-8811-c76aa94f2cec, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}, udp: true}
-  - {name: 🇺🇲 美国05, server: vip345.xyz, port: 39018, type: vmess, uuid: 231ed5ad-ea58-361a-8811-c76aa94f2cec, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}, udp: true}
-  - {name: 🇭🇰 香港01 三网优化 防墙节点，永不失联, server: zz1234.xyz, port: 25124, type: vmess, uuid: 231ed5ad-ea58-361a-8811-c76aa94f2cec, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ny, ws-headers: {Host: zz1234.xyz}, udp: true}
-  - {name: 🇭🇰 香港02  免流80节点, server: 23.98.43.136, port: 80, type: vmess, uuid: 231ed5ad-ea58-361a-8811-c76aa94f2cec, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: 23.98.43.136}, udp: true}
-  - {name: 🇭🇰 香港03 三网优化, server: 52.175.49.112, port: 25580, type: vmess, uuid: 231ed5ad-ea58-361a-8811-c76aa94f2cec, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: 52.175.49.112}, udp: true}
-  - {name: 🇭🇰 香港05 三网优化, server: 40.83.101.87, port: 25580, type: vmess, uuid: 231ed5ad-ea58-361a-8811-c76aa94f2cec, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: 40.83.101.87}, udp: true}
-  - {name: 🇭🇰 香港06 三网优化 解锁流媒体奈飞, server: 65.52.188.17, port: 25098, type: vmess, uuid: 231ed5ad-ea58-361a-8811-c76aa94f2cec, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: 65.52.188.17}, udp: true}
-  - {name: 🇭🇰 香港07 三网优化 解锁流媒体 奈飞, server: 65.52.188.17, port: 25073, type: vmess, uuid: 231ed5ad-ea58-361a-8811-c76aa94f2cec, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ny, ws-headers: {Host: 65.52.188.17}, udp: true}
-  - {name: 🇺🇲 美国 江门│免费节点(洛杉矶1), server: relayneko.q88q.ml, port: 55167, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:ugxrw29ogq, obfs-param: 4bfb0623.baidu.com}
+  - {name: 🇨🇳 台湾31944 4, server: 103.148.242.170, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇨🇳 台湾33184 2, server: 191.96.15.88, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇨🇳 台湾33998 2, server: 191.96.15.88, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: 🇨🇳 台湾33998 9, server: 138.199.42.157, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: 🇲🇾 Malaysia, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇲🇾 Malaysia 2, server: 118.107.244.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇲🇾 Malaysia 3, server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇲🇾 Malaysia 5, server: 118.107.244.111, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇲🇾 Malaysia 6, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 America, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 America 2, server: 152.67.225.114, port: 23456, type: vmess, uuid: 86e46276-7b5a-445e-8a66-1f3ec592fc8f, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /cs, ws-headers: {Host: 152.67.225.114}}
+  - {name: 🇺🇲 America 4, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇲 America 5, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 🇺🇲 America 6, server: usbackup8.mars6666.com, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usbackup8.mars6666.com}}
+  - {name: 🇮🇹 Italy, server: 82.102.26.117, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇮🇹 Italy 2, server: 82.102.26.117, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇳🇱 Netherlands, server: 46.182.107.147, port: 443, type: vmess, uuid: 77a48930-1e67-4a72-96be-3e584858ea4f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73207635.xyz}}
+  - {name: 🇳🇱 Netherlands 2, server: 46.182.107.3, port: 443, type: vmess, uuid: b2aa7a8a-ab88-4c0f-a310-0b9456c69420, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.33960870.xyz}}
+  - {name: 🇳🇱 Netherlands 3, server: 46.182.107.97, port: 443, type: vmess, uuid: 8f8f3146-c73d-4cb2-b030-c3bb468ff82c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.08538470.xyz}}
+  - {name: 🇳🇱 Netherlands 4, server: 154.84.1.215, port: 443, type: vmess, uuid: 756f5f10-6bda-4dd0-bf07-5c4d61773611, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
+  - {name: 🇳🇱 Netherlands 5, server: 154.84.1.215, port: 443, type: vmess, uuid: 756f5f10-6bda-4dd0-bf07-5c4d61773611, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
+  - {name: 🇳🇱 Netherlands 6, server: 46.182.107.44, port: 443, type: vmess, uuid: 33b1f366-4537-437f-b3f6-20b0e0046828, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
+  - {name: 🇳🇱 Netherlands 7, server: 154.84.1.116, port: 443, type: vmess, uuid: b349f65b-4b19-4255-9ee2-b679990540e7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.25936911.xyz}}
+  - {name: 🇳🇱 Netherlands 8, server: 154.84.1.250, port: 443, type: vmess, uuid: 8f8f3146-c73d-4cb2-b030-c3bb468ff82c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.08538470.xyz}}
+  - {name: 🇩🇪 Germany, server: 45.134.224.15, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇩🇪 Germany 2, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇯🇵 Japan, server: 158.101.159.79, port: 39000, type: vmess, uuid: 9be5a864-14ad-4752-d6fc-17efdb9d7a86, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /cs, ws-headers: {Host: 158.101.159.79}}
+  - {name: 🇭🇰 HK_3152, server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 HK_3170, server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇭🇰 HK_3171, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇭🇰 HK_3172, server: 47.240.46.71, port: 444, type: ss, cipher: aes-256-cfb, password: aliskrskr}
+  - {name: 🇭🇰 HK_3173, server: 118.107.244.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇭🇰 HK_1939, server: 47.240.46.71, port: 444, type: ss, cipher: aes-256-cfb, password: aliskrskr}
+  - {name: 🇭🇰 HK_3181, server: 13.70.28.145, port: 34323, type: vmess, uuid: 5a2056b9-61c5-4737-b153-b2775ec8bad9, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 KR_3639, server: 52.79.60.0, port: 44223, type: vmess, uuid: 8b409727-b3e2-4e1f-b237-12b34cfb46e3, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.79.60.0}}
+  - {name: 🇭🇰 HK_1971, server: 18.162.168.190, port: 30040, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false}
+  - {name: 🇰🇷 KR_2538, server: 52.79.60.0, port: 44223, type: vmess, uuid: 8b409727-b3e2-4e1f-b237-12b34cfb46e3, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.79.60.0}}
+  - {name: 🇭🇰 HK_2734, server: 47.240.46.71, port: 444, type: ss, cipher: aes-256-cfb, password: aliskrskr}
+  - {name: 🇭🇰 HK_1880, server: 47.240.46.71, port: 444, type: ss, cipher: aes-256-cfb, password: aliskrskr}
+ 
