@@ -1,6 +1,6 @@
 proxies:
-  - {name:  🇭🇰  电报群@freeyule, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 456278696924282880, password: 9c08b1b3-f523-4edc-8c89-38f9a75f7cc4, tls: true}
-  - {name:  🇭🇰  防丢节点@freeyule, server: a1.er3.xyz, port: 29980, type: http, username: 456278696924282880, password: 9c08b1b3-f523-4edc-8c89-38f9a75f7cc4, tls: true, skip-cert-verify: true}
+  - {name:  🇭🇰  电报群@freeyule, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "456278696924282880", password: 9c08b1b3-f523-4edc-8c89-38f9a75f7cc4, tls: true}
+  - {name:  🇭🇰  防丢节点@freeyule, server: a1.er3.xyz, port: 29980, type: http, username: "456278696924282880", password: 9c08b1b3-f523-4edc-8c89-38f9a75f7cc4, tls: true, skip-cert-verify: true}
   - {name: 🇳🇱 蜜蜂加速器 荷兰, server: 154.84.1.217, port: 443, type: vmess, uuid: d03a8fbf-7d51-46c3-b02d-17ff0b32e4c5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.53103739.xyz}}
   - {name: 🇳🇱 蜜蜂加速器 荷兰 4, server: 154.84.1.106, port: 443, type: vmess, uuid: a8089885-9602-4052-b1a3-1c9e02df635d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.63681459.xyz}}
   - {name: 🇳🇱 蜜蜂加速器 荷兰 7, server: 154.84.1.199, port: 443, type: vmess, uuid: 3268727a-7556-4211-8a49-2cf5c5096da4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.79570456.xyz}}
