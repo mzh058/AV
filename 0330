@@ -1,6 +1,6 @@
 proxies:
-  - {name: 电报群@freeyule, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "456278696924282880", password: "9c08b1b3-f523-4edc-8c89-38f9a75f7cc4", tls: true}
-  - {name: 防丢节点@freeyule, server: a1.er3.xyz, port: 29980, type: http, username: "456278696924282880", password: "9c08b1b3-f523-4edc-8c89-38f9a75f7cc4", tls: true, skip-cert-verify: true}
+  - {name:  电报群@freeyule, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "456278696924282880", password: 9c08b1b3-f523-4edc-8c89-38f9a75f7cc4, tls: true}
+  - {name:  防丢节点@freeyule, server: a1.er3.xyz, port: 29980, type: http, username: "456278696924282880", password: 9c08b1b3-f523-4edc-8c89-38f9a75f7cc4, tls: true, skip-cert-verify: true}
   - {name: 🇩🇪 DE_897, server: 78.47.94.207, port: 35139, type: ss, cipher: aes-256-gcm, password: vcFINAQlgqZZ}
   - {name: 🇯🇵 JP_2365, server: 175.41.204.200, port: 20040, type: ss, cipher: chacha20-ietf-poly1305, password: 39341fe7-b8b7-4605-a811-af1f1d46d4fb}
   - {name: CA_554, server: 104.245.96.238, port: 62363, type: vmess, uuid: e5947899-df05-40d1-8cf5-17fee6f3ec37, alterId: 8, cipher: auto, tls: false}
