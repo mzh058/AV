@@ -1,4 +1,3 @@
-
 proxies:
   - {name: 电报群@freeyule, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "456278696924282880", password: 9c08b1b3-f523-4edc-8c89-38f9a75f7cc4, tls: true}
   - {name: 防丢节点@freeyule, server: a1.er3.xyz, port: 29980, type: http, username: "456278696924282880", password: 9c08b1b3-f523-4edc-8c89-38f9a75f7cc4, tls: true, skip-cert-verify: true}
