@@ -28,3 +28,4 @@ proxies:
   - {name: 🇰🇷 韩国白嫖 B, server: 54.180.105.108, port: 10100, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
   - {name: 🇭🇰 香港白嫖 A, server: 16.162.33.247, port: 11200, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
   - {name: 🇭🇰 香港白嫖 B, server: 16.162.33.247, port: 10900, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
+
