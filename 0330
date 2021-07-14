@@ -1,4 +1,4 @@
-代理：
+proxies:
   - {名称：白嫖群，服务器：www.freeyule.ml，端口：9893，类型：ss，密码：aes-256-cfb，密码：about-tg@freeyule！}
   - {名称：一键连｜HTTPS1，服务器：a1.ap.fastqvpn.com，端口：29980，类型：http，用户名：433608252467445760，密码：54b0cce0-5321-4f76-bfb5-e4992d938db：true
   - {名称：一键连｜HTTPS2，服务器：global.ap.fastqvpn.com，端口：29980，类型：http，用户名：433608252467445760，密码：54b0cce0-5321-4f76-bfb5-e4992d938db，true}
