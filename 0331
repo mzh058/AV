@@ -1,49 +1,22 @@
 proxies:
-  - {name:  🇭🇰  电报群@freeyule, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: "456278696924282880", password: 9c08b1b3-f523-4edc-8c89-38f9a75f7cc4, tls: true}
-  - {name:  🇭🇰  防丢节点@freeyule, server: a1.er3.xyz, port: 29980, type: http, username: "456278696924282880", password: 9c08b1b3-f523-4edc-8c89-38f9a75f7cc4, tls: true, skip-cert-verify: true}
-  - {name: 🇳🇱 蜜蜂加速器 荷兰, server: 154.84.1.217, port: 443, type: vmess, uuid: d03a8fbf-7d51-46c3-b02d-17ff0b32e4c5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.53103739.xyz}}
-  - {name: 🇳🇱 蜜蜂加速器 荷兰 4, server: 154.84.1.106, port: 443, type: vmess, uuid: a8089885-9602-4052-b1a3-1c9e02df635d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.63681459.xyz}}
-  - {name: 🇳🇱 蜜蜂加速器 荷兰 7, server: 154.84.1.199, port: 443, type: vmess, uuid: 3268727a-7556-4211-8a49-2cf5c5096da4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.79570456.xyz}}
-  - {name: 🇳🇱 蜜蜂加速器 荷兰 8, server: 154.84.1.116, port: 443, type: vmess, uuid: b349f65b-4b19-4255-9ee2-b679990540e7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.25936911.xyz}}
-  - {name: 🇺🇲 蜜蜂加速器 美国 2, server: 23.224.8.91, port: 443, type: vmess, uuid: 116dbc8a-ec13-49a5-b954-d49f65630ba4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10925848.xyz}}
-  - {name: 🇰🇷 KR_2452, server: 52.79.60.0, port: 44223, type: vmess, uuid: 8b409727-b3e2-4e1f-b237-12b34cfb46e3, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.79.60.0}}
-  - {name: 🇨🇳 台湾31944 4, server: 103.148.242.170, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇨🇳 台湾33184 2, server: 191.96.15.88, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇨🇳 台湾33998 2, server: 191.96.15.88, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
-  - {name: 🇨🇳 台湾33998 9, server: 138.199.42.157, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
-  - {name: 🇲🇾 Malaysia, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇲🇾 Malaysia 2, server: 118.107.244.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇲🇾 Malaysia 3, server: 118.107.244.113, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇲🇾 Malaysia 5, server: 118.107.244.111, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇲🇾 Malaysia 6, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 America, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 America 2, server: 152.67.225.114, port: 23456, type: vmess, uuid: 86e46276-7b5a-445e-8a66-1f3ec592fc8f, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /cs, ws-headers: {Host: 152.67.225.114}}
-  - {name: 🇺🇲 America 4, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇲 America 5, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: 🇺🇲 America 6, server: usbackup8.mars6666.com, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usbackup8.mars6666.com}}
-  - {name: 🇮🇹 Italy, server: 82.102.26.117, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇮🇹 Italy 2, server: 82.102.26.117, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇳🇱 Netherlands, server: 46.182.107.147, port: 443, type: vmess, uuid: 77a48930-1e67-4a72-96be-3e584858ea4f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73207635.xyz}}
-  - {name: 🇳🇱 Netherlands 2, server: 46.182.107.3, port: 443, type: vmess, uuid: b2aa7a8a-ab88-4c0f-a310-0b9456c69420, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.33960870.xyz}}
-  - {name: 🇳🇱 Netherlands 3, server: 46.182.107.97, port: 443, type: vmess, uuid: 8f8f3146-c73d-4cb2-b030-c3bb468ff82c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.08538470.xyz}}
-  - {name: 🇳🇱 Netherlands 4, server: 154.84.1.215, port: 443, type: vmess, uuid: 756f5f10-6bda-4dd0-bf07-5c4d61773611, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
-  - {name: 🇳🇱 Netherlands 5, server: 154.84.1.215, port: 443, type: vmess, uuid: 756f5f10-6bda-4dd0-bf07-5c4d61773611, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
-  - {name: 🇳🇱 Netherlands 6, server: 46.182.107.44, port: 443, type: vmess, uuid: 33b1f366-4537-437f-b3f6-20b0e0046828, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
-  - {name: 🇳🇱 Netherlands 7, server: 154.84.1.116, port: 443, type: vmess, uuid: b349f65b-4b19-4255-9ee2-b679990540e7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.25936911.xyz}}
-  - {name: 🇳🇱 Netherlands 8, server: 154.84.1.250, port: 443, type: vmess, uuid: 8f8f3146-c73d-4cb2-b030-c3bb468ff82c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.08538470.xyz}}
-  - {name: 🇩🇪 Germany, server: 45.134.224.15, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇩🇪 Germany 2, server: 3.66.221.175, port: 31186, type: vmess, uuid: 3ebad99a-4470-4998-94be-43046d0b4986, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 Japan, server: 158.101.159.79, port: 39000, type: vmess, uuid: 9be5a864-14ad-4752-d6fc-17efdb9d7a86, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /cs, ws-headers: {Host: 158.101.159.79}}
-  - {name: 🇸🇬 SG_4293 |36.19Mb, server: 89.187.163.215, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇭🇰 HK_3535, server: hk3.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk3.xyttk.vip}}
-  - {name: 🇫🇷 FR_1500, server: 51.89.99.59, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇫🇷 FR_1573, server: 51.195.62.220, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇫🇷 FR_1420, server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇲 US_6402 |35.71Mb, server: 13.212.76.43, port: 15068, type: vmess, uuid: 7a006e11-72df-4497-947a-54b4ef9cd229, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 US_6409 |52.34Mb, server: 3.36.76.192, port: 31812, type: vmess, uuid: a1371d43-f0fe-43cf-b826-d900a1c8de49, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 HK_3491, server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇭🇰 HK_3536, server: hk4.xyttk.vip, port: 80, type: vmess, uuid: 5bf34c7c-1211-4c73-b292-3593cd582005, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk4.xyttk.vip}}
-  - {name: 🇫🇷 FR_1553, server: 51.195.62.220, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇫🇷 FR_1556, server: 51.89.99.59, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇭🇰 HK_3170, server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇭🇰 HK_3171, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {名称：白嫖群，服务器：www.freeyule.ml，端口：9893，类型：ss，密码：aes-256-cfb，密码：about-tg@freeyule！}
+  - {名称：一键连｜HTTPS1，服务器：a1.ap.fastqvpn.com，端口：29980，类型：http，用户名：433608252467445760，密码：54b0cce0-5321-4f76-bfb5-e4992d938db：true
+  - {名称：一键连｜HTTPS2，服务器：global.ap.fastqvpn.com，端口：29980，类型：http，用户名：433608252467445760，密码：54b0cce0-5321-4f76-bfb5-e4992d938db，true}
+  - {名称：一键连｜HTTPS3，服务器：a3.ap.fastqvpn.com，端口：29980，类型：http，用户名：433608252467445760，密码：54b0cce0-5321-4f76-bfb5-e4992d938db：true
+  - {名称：一键连｜HTTPS4，服务器：global.ap.fastqvpn.com，端口：29980，类型：http，用户名：433608252467445760，密码：54b0cce0-5321-4f76-bfb5-e4992d938db，true}
+  - {名称：一键连｜HTTPS5，服务器：a5.ap.fastqvpn.com，端口：29980，类型：http，用户名：433608252467445760，密码：54b0cce0-5321-4f76-bfb5-e4992d938db：true
+  - {名称：🇮🇳 印度 B，服务器：13.233.57.26，端口：27201，类型：vmess，uuid：1263bfcf-c18b-3185-90e0-eed13a88a97c，alterId：2，网络：wlscipher：false , ws-path: /, ws-headers: {Host: a.189.cn}}
+  - {name: 🇩🇪 德国 A, 服务器: 18.156.134.166, 端口: 27101, 类型: vmess, uuid: 1263bfcf-c18b-3185-90e0-eed13a88a97c, alterId: autoId,2,t ciphers: network , ws-path: /, ws-headers: {Host: a.189.cn}}
+  - {名称：🇸🇬 新加坡 A，服务器：3.1.6.177，端口：46869，类型：vmess，uuid：1263bfcf-c18b-3185-90e0-eed13a88a97c，alterId：2，密码：自动，网络, ws-path: /, ws-headers: {Host: a.189.cn}}
+  - {name: 🇯🇵 日本 B, 服务器: 13.112.219.146, 端口: 27201, 类型: vmess, uuid: 1263bfcf-c18b-3185-90e0-eed13a88a97c, 密码: autoId, 2, t cipher , ws-path: /, ws-headers: {Host: a.189.cn}}
+  - {名称：🇰🇷韩国 A，服务器：3.36.55.165，端口：46863，类型：vmess，uuid：1263bfcf-c18b-3185-90e0-eed13a88a97c，alterId：2，网络：wlscipher：false , ws-path: /, ws-headers: {Host: a.189.cn}}
+  - {name: 🇭🇰 香港 A, 服务器: 18.166.74.3, 端口: 27201, 类型: vmess, uuid: 1263bfcf-c18b-3185-90e0-eed13a88a97c, alterId: 2, network: wlss, false, false , ws-path: /, ws-headers: {Host: a.189.cn}}
+  - {名称：🇺🇲美国洛杉矶普线-免费①-倍率1，服务器：laxgongyi1.hjynode.com，端口：443，类型：vmess，uuid：8f35eb67-e807-349d-aed9-ec102010f194，密码： : auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: laxgongyi1.hjynode.com}}
+  - {名称：🇺🇲美国洛杉矶普线-免费②-倍率1，服务器：laxgongyi2.hjynode.com，端口：443，类型：vmess，uuid：8f35eb67-e807-349d-aed9-ec102010f194，密码： : auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: laxgongyi2.hjynode.com}}
+  - {名称：🇺🇲美国洛杉矶普线-免费③-倍率1，服务器：laxgongyi3.hjynode.com，端口：443，类型：vmess，uuid：8f35eb67-e807-349d-aed9-ec102010f194，密码：2 : auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: laxgongyi3.hjynode.com}}
+  - {name: 🇨🇳 31.『ChinaG』几只鸡-学习助理，服务器：SCDN.2331.VOLAKT.China-nCDN-nRDS.com，端口：2331，类型：vmess，uuid：418a0d1d-4d5d-3312-b41e -2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2331.VOLAKT.China-nCDN-nRDS.com}}
+  - {name:33.公益等级线路成功限速，服务器：SCDN.2333.ZXBVTV.China-nCDN-nRDS.com，端口：2333，类型：vmess，uuid：418a0d1d-4d5d-3312-b41e-2b2c554b7de0，alterId : 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com}}
+  - {name:🇨🇳 34.SC展示更多协议线路，server:DN.2334.BLKOAJ.China-nCDN-nRDS.com，端口：2334，类型：vmess，uuid：418a0d1d-4d5d-3312-b41e-2b7205c , alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2334.BLKOAJ.China-nCDN-nRDS.com}}
+  - {name: 35.包括V2ray和Trojan, server: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com, port: 2335, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c5 alter:d720 , cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com}}
+  - {name: 36.中继中转隧道路径覆盖, server: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com, port: 2336, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId : 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com}}
+  - {name：37.长期习惯覆盖IPLC专线，服务器：SCDN.2337.ZKLDMF.China-nCDN-nRDS.com，端口：2337，类型：vmess，uuid：418a0d1d-4d5d-3312-b41e-2b2c554b7de0， 2、密码：auto，tls：false，网络：ws，ws-path：/iso，ws-headers：{主机：SCDN.2337.ZKLDMF.China-nCDN-nRDS.com}}
