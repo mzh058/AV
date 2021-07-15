@@ -1,10 +1,10 @@
 proxies:
   - {name: 白嫖群, server: www.freeyule.ml, port: 9893, type: ss, cipher: aes-256-cfb, password: about-tg@freeyule!}
-  - {name: 一键连｜HTTPS1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 433608252467445760, password: 54b0cce0-5321-4f76-bfb5-e4992d938dbc, tls: true}
-  - {name: 一键连｜HTTPS2, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 433608252467445760, password: 54b0cce0-5321-4f76-bfb5-e4992d938dbc, tls: true}
-  - {name: 一键连｜HTTPS3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 433608252467445760, password: 54b0cce0-5321-4f76-bfb5-e4992d938dbc, tls: true}
-  - {name: 一键连｜HTTPS4, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 433608252467445760, password: 54b0cce0-5321-4f76-bfb5-e4992d938dbc, tls: true}
-  - {name: 一键连｜HTTPS5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 433608252467445760, password: 54b0cce0-5321-4f76-bfb5-e4992d938dbc, tls: true}
+  - {name: 一键连｜HTTPS1, server: a1.ap.fastqvpn.com, port: 29980, type: http, username: 433608252467445760, password: 62cd8fff-3115-4143-b3f9-5e945cb6c291, tls: true}
+  - {name: 一键连｜HTTPS2, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 433608252467445760, password: 62cd8fff-3115-4143-b3f9-5e945cb6c291, tls: true}
+  - {name: 一键连｜HTTPS3, server: a3.ap.fastqvpn.com, port: 29980, type: http, username: 433608252467445760, password: 62cd8fff-3115-4143-b3f9-5e945cb6c291, tls: true}
+  - {name: 一键连｜HTTPS4, server: global.ap.fastqvpn.com, port: 29980, type: http, username: 433608252467445760, password: 62cd8fff-3115-4143-b3f9-5e945cb6c291, tls: true}
+  - {name: 一键连｜HTTPS5, server: a5.ap.fastqvpn.com, port: 29980, type: http, username: 433608252467445760, password: 62cd8fff-3115-4143-b3f9-5e945cb6c291, tls: true}
   - {name: 🇮🇳 印度 B, server: 13.233.57.26, port: 27201, type: vmess, uuid: 1263bfcf-c18b-3185-90e0-eed13a88a97c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
   - {name: 🇩🇪 德国 A, server: 18.156.134.166, port: 27101, type: vmess, uuid: 1263bfcf-c18b-3185-90e0-eed13a88a97c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
   - {name: 🇸🇬 新加坡 A, server: 3.1.6.177, port: 46869, type: vmess, uuid: 1263bfcf-c18b-3185-90e0-eed13a88a97c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}}
