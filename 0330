@@ -1,12 +1,54 @@
 proxies:
-  - {name: 白嫖群, server: www.freeyule.ml, port: 9893, type: ss, cipher: aes-256-cfb, password: about-tg@freeyule!}
-  - name: 🇭🇰香港FASTQ_G
+  - name: 🇭🇰一键连
     type: http
     server: jc.ap.fastqvpn.com
     port: 29980
     username: "433608252467445760"
     password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
     tls: true
+  - name: 🇦🇺一键连
+    type: http
+    server: jc.ap.fastqvpn.com
+    port: 29983
+    username: "433608252467445760"
+    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
+    tls: true
+  - name: 🇨🇦一键连
+    type: http
+    server: jc.ap.fastqvpn.com
+    port: 29984
+    username: "433608252467445760"
+    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
+    tls: true
+  - name: 🇩🇪一键连
+    type: http
+    server: jc.ap.fastqvpn.com
+    port: 29985
+    username: "433608252467445760"
+    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
+    tls: true
+  - name: 🇯🇵一键连
+    type: http
+    server: jc.ap.fastqvpn.com
+    port: 29986
+    username: "433608252467445760"
+    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
+    tls: true
+  - name: 🇸🇬一键连
+    type: http
+    server: jc.ap.fastqvpn.com
+    port: 29987
+    username: "433608252467445760"
+    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
+    tls: true
+  - name: 🇬🇧一键连
+    type: http
+    server: jc.ap.fastqvpn.com
+    port: 29988
+    username: "433608252467445760"
+    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
+    tls: true
+  - {name: 白嫖群, server: www.freeyule.ml, port: 9893, type: ss, cipher: aes-256-cfb, password: about-tg@freeyule!}
   - {name: 🇨🇳 31.『ChinaG』几鸡-学习助理, server: SCDN.2331.VOLAKT.China-nCDN-nRDS.com, port: 2331, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2331.VOLAKT.China-nCDN-nRDS.com}}
   - {name: 33.公益等级線路嚴格限速, server: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com, port: 2333, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com}}
   - {name: 🇨🇳 34.捐赠解锁更多协议线路, server: SCDN.2334.BLKOAJ.China-nCDN-nRDS.com, port: 2334, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2334.BLKOAJ.China-nCDN-nRDS.com}}
