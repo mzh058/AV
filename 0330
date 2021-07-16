@@ -1,47 +1,47 @@
 proxies:
-  - name: 🇭🇰一键连
+  - name: 🇭🇰香港FASTQ_G
     type: http
     server: jc.ap.fastqvpn.com
     port: 29980
     username: "433608252467445760"
     password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
     tls: true
-  - name: 🇦🇺一键连
+  - name: 🇦🇺澳大利亚FASTQ_G
     type: http
     server: jc.ap.fastqvpn.com
     port: 29983
     username: "433608252467445760"
     password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
     tls: true
-  - name: 🇨🇦一键连
+  - name: 🇨🇦加拿大FASTQ_G
     type: http
     server: jc.ap.fastqvpn.com
     port: 29984
     username: "433608252467445760"
     password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
     tls: true
-  - name: 🇩🇪一键连
+  - name: 🇩🇪德国FASTQ_G
     type: http
     server: jc.ap.fastqvpn.com
     port: 29985
     username: "433608252467445760"
     password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
     tls: true
-  - name: 🇯🇵一键连
+  - name: 🇯🇵日本FASTQ_G
     type: http
     server: jc.ap.fastqvpn.com
     port: 29986
     username: "433608252467445760"
     password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
     tls: true
-  - name: 🇸🇬一键连
+  - name: 🇸🇬新加坡FASTQ_G
     type: http
     server: jc.ap.fastqvpn.com
     port: 29987
     username: "433608252467445760"
     password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
     tls: true
-  - name: 🇬🇧一键连
+  - name: 🇬🇧英国FASTQ_G
     type: http
     server: jc.ap.fastqvpn.com
     port: 29988
