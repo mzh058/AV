@@ -1,5 +1,5 @@
 proxies:
-  - name: 🇭🇰香港FASTQ_G
+  - name: 🇭🇰香港FASTQ
     type: http
     server: jc.ap.fastqvpn.com
     port: 29980
