@@ -41,6 +41,9 @@ proxies:
     username: "433608252467445760"
     password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
     tls: true
+  - {name: 古帝剑*1, server: n1.digiteri.com, port: 8443, type: vmess, uuid: 16d3fcb9-639b-45e3-a574-6ab0350a7393, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /shensevens, ws-headers: {Host: n1.digiteri.com}}
+  - {name: 开天斧*10, server: n2.digiteri.com, port: 8443, type: vmess, uuid: 16d3fcb9-639b-45e3-a574-6ab0350a7393, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /tg2shenseven, ws-headers: {Host: n2.digiteri.com}}
+  - {name: 神农鼎*10, server: v1.proxypools.top, port: 8443, type: trojan, password: 16d3fcb9-639b-45e3-a574-6ab0350a7393, sni: v1.proxypools.top, skip-cert-verify: true}
   - {name: 白嫖香港, server: www.freeyule.ml, port: 9893, type: ss, cipher: aes-256-cfb, password: about-tg@freeyule!}
   - {name: 🇨🇳 31.『ChinaG』几鸡-学习助理, server: SCDN.2331.VOLAKT.China-nCDN-nRDS.com, port: 2331, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2331.VOLAKT.China-nCDN-nRDS.com}}
   - {name: 33.公益等级線路嚴格限速, server: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com, port: 2333, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com}}
@@ -56,6 +59,5 @@ proxies:
   - {name: 🇰🇷 韩国白嫖 B, server: 54.180.105.108, port: 10100, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
   - {name: 🇭🇰 香港白嫖 A, server: 16.162.33.247, port: 11200, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
   - {name: 🇭🇰 香港白嫖 B, server: 16.162.33.247, port: 10900, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
-  - {name: 🇷🇺 俄罗斯 1号200m, server: els.justcn2.top, port: 80, type: vmess, uuid: 3ef0a9a3-c875-3647-a501-5f4d9ecce24c, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /omanko.mp4, ws-headers: {Host: pull.free.video.10010.com}}
   - {name: 🇭🇰 香港 3.5Gbps 1号, server: xg1.justcn2.top, port: 80, type: vmess, uuid: 3ef0a9a3-c875-3647-a501-5f4d9ecce24c, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
   - {name: 🇭🇰 香港 3号 2Gbps /台湾流媒体解锁, server: xg3.justcn2.top, port: 80, type: vmess, uuid: 3ef0a9a3-c875-3647-a501-5f4d9ecce24c, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
