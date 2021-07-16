@@ -1,6 +1,6 @@
 proxies:
   - {name: 白嫖群, server: www.freeyule.ml, port: 9893, type: ss, cipher: aes-256-cfb, password: about-tg@freeyule!}
-  - {name: 🇭🇰 一键连｜HTTPS1, server: ““jc.ap.fastqvpn.com””, port: 29980, type: http, username: 433608252467445760, password: 54b0cce0-5321-4f76-bfb5-e4992d938dbc, tls: true}
+  - {name: 🇭🇰 一键连｜HTTPS1, server: “jc.ap.fastqvpn.com”, port: 29980, type: http, username: 433608252467445760, password: 54b0cce0-5321-4f76-bfb5-e4992d938dbc, tls: true}
   - {name: 🇭🇰 一键连｜HTTPS2, server: “jc.ap.fastqvpn.com”, port: 29983, type: http, username: 433608252467445760, password: 54b0cce0-5321-4f76-bfb5-e4992d938dbc, tls: true}
   - {name: 🇭🇰 一键连｜HTTPS3, server: “jc.ap.fastqvpn.com”, port: 29984, type: http, username: 433608252467445760, password: 54b0cce0-5321-4f76-bfb5-e4992d938dbc, tls: true}
   - {name: 🇭🇰 一键连｜HTTPS4, server: “jc.ap.fastqvpn.com”, port: 29985, type: http, username: 433608252467445760, password: 54b0cce0-5321-4f76-bfb5-e4992d938dbc, tls: true}
