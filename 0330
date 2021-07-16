@@ -1,68 +1,68 @@
-proxies:
-  - name: 🇭🇰香港FASTQ
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29980
-    username: "433608252467445760"
-    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
-    tls: true
-  - name: 🇦🇺澳大利亚FASTQ_G
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29983
-    username: "433608252467445760"
-    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
-    tls: true
-  - name: 🇨🇦加拿大FASTQ_G
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29984
-    username: "433608252467445760"
-    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
-    tls: true
-  - name: 🇩🇪德国FASTQ_G
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29985
-    username: "433608252467445760"
-    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
-    tls: true
-  - name: 🇯🇵日本FASTQ_G
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29986
-    username: "433608252467445760"
-    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
-    tls: true
-  - name: 🇸🇬新加坡FASTQ_G
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29987
-    username: "433608252467445760"
-    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
-    tls: true
-  - name: 🇬🇧英国FASTQ_G
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29988
-    username: "433608252467445760"
-    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
-    tls: true
-  - {name: 白嫖群, server: www.freeyule.ml, port: 9893, type: ss, cipher: aes-256-cfb, password: about-tg@freeyule!}
-  - {name: 🇨🇳 31.『ChinaG』几鸡-学习助理, server: SCDN.2331.VOLAKT.China-nCDN-nRDS.com, port: 2331, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2331.VOLAKT.China-nCDN-nRDS.com}}
-  - {name: 33.公益等级線路嚴格限速, server: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com, port: 2333, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com}}
-  - {name: 🇨🇳 34.捐赠解锁更多协议线路, server: SCDN.2334.BLKOAJ.China-nCDN-nRDS.com, port: 2334, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2334.BLKOAJ.China-nCDN-nRDS.com}}
-  - {name: 35.包括V2ray和Trojan, server: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com, port: 2335, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com}}
-  - {name: 36.中继中转隧道线路覆盖, server: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com, port: 2336, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com}}
-  - {name: 37.长期套餐覆盖IPLC专线, server: SCDN.2337.ZKLDMF.China-nCDN-nRDS.com, port: 2337, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2337.ZKLDMF.China-nCDN-nRDS.com}}
-  - {name: 🇸🇬 新加坡白嫖 A, server: 122.248.218.227, port: 10100, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
-  - {name: 🇸🇬 新加坡白嫖 B, server: 122.248.218.227, port: 10200, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
-  - {name: 🇯🇵 日本白嫖 A, server: 3.112.196.158, port: 10800, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
-  - {name: 🇯🇵 日本白嫖 B, server: 3.112.196.158, port: 60800, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
-  - {name: 🇰🇷 韩国白嫖 A, server: 54.180.105.108, port: 10500, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
-  - {name: 🇰🇷 韩国白嫖 B, server: 54.180.105.108, port: 10100, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
-  - {name: 🇭🇰 香港白嫖 A, server: 16.162.33.247, port: 11200, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
-  - {name: 🇭🇰 香港白嫖 B, server: 16.162.33.247, port: 10900, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
-  - {name: 🇷🇺 俄罗斯 1号200m, server: els.justcn2.top, port: 80, type: vmess, uuid: 3ef0a9a3-c875-3647-a501-5f4d9ecce24c, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /omanko.mp4, ws-headers: {Host: pull.free.video.10010.com}}
-  - {name: 🇭🇰 香港 3.5Gbps 1号, server: xg1.justcn2.top, port: 80, type: vmess, uuid: 3ef0a9a3-c875-3647-a501-5f4d9ecce24c, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
-  - {name: 🇭🇰 香港 3号 2Gbps /台湾流媒体解锁, server: xg3.justcn2.top, port: 80, type: vmess, uuid: 3ef0a9a3-c875-3647-a501-5f4d9ecce24c, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
+代理：
+  - 姓名：🇭🇰香港FASTQ
+    类型：http
+    服务器：jc.ap.fastqvpn.com
+    端口：29980
+    用户名：“433608252467445760”
+    密码：62cd8fff-3115-4143-b3f9-5e945cb6c291
+    tls: 真的
+  - 姓名：🇦🇺澳大利亚FASTQ_G
+    类型：http
+    服务器：jc.ap.fastqvpn.com
+    端口：29983
+    用户名：“433608252467445760”
+    密码：62cd8fff-3115-4143-b3f9-5e945cb6c291
+    tls: 真的
+  - 姓名：🇨🇦加拿大FASTQ_G
+    类型：http
+    服务器：jc.ap.fastqvpn.com
+    端口：29984
+    用户名：“433608252467445760”
+    密码：62cd8fff-3115-4143-b3f9-5e945cb6c291
+    tls: 真的
+  - 名称：🇩🇪德国FASTQ_G
+    类型：http
+    服务器：jc.ap.fastqvpn.com
+    端口：29985
+    用户名：“433608252467445760”
+    密码：62cd8fff-3115-4143-b3f9-5e945cb6c291
+    tls: 真的
+  - 姓名：🇯🇵日本FASTQ_G
+    类型：http
+    服务器：jc.ap.fastqvpn.com
+    端口：29986
+    用户名：“433608252467445760”
+    密码：62cd8fff-3115-4143-b3f9-5e945cb6c291
+    tls: 真的
+  - 姓名：🇸🇬新加坡FASTQ_G
+    类型：http
+    服务器：jc.ap.fastqvpn.com
+    端口：29987
+    用户名：“433608252467445760”
+    密码：62cd8fff-3115-4143-b3f9-5e945cb6c291
+    tls: 真的
+  - 姓名：🇬🇧英国FASTQ_G
+    类型：http
+    服务器：jc.ap.fastqvpn.com
+    端口：29988
+    用户名：“433608252467445760”
+    密码：62cd8fff-3115-4143-b3f9-5e945cb6c291
+    tls: 真的
+  - {名称：白嫖群，服务器：www.freeyule.ml，端口：9893，类型：ss，密码：aes-256-cfb，密码：about-tg@freeyule！}
+  - {name: 🇨🇳 31.『ChinaG』几只鸡-学习助理，服务器：SCDN.2331.VOLAKT.China-nCDN-nRDS.com，端口：2331，类型：vmess，uuid：418a0d1d-4d5d-3312-b41e -2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2331.VOLAKT.China-nCDN-nRDS.com}}
+  - {name:33.公益等级线路成功限速，服务器：SCDN.2333.ZXBVTV.China-nCDN-nRDS.com，端口：2333，类型：vmess，uuid：418a0d1d-4d5d-3312-b41e-2b2c554b7de0，alterId : 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com}}
+  - {name:🇨🇳 34.SC展示更多协议线路，server:DN.2334.BLKOAJ.China-nCDN-nRDS.com，端口：2334，类型：vmess，uuid：418a0d1d-4d5d-3312-b41e-2b7205c , alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2334.BLKOAJ.China-nCDN-nRDS.com}}
+  - {name: 35.包括V2ray和Trojan, server: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com, port: 2335, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c5 alter:id720 , cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com}}
+  - {name: 36.中继中转隧道路径覆盖, server: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com, port: 2336, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId : 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com}}
+  - {name：37.长期习惯覆盖IPLC专线，服务器：SCDN.2337.ZKLDMF.China-nCDN-nRDS.com，端口：2337，类型：vmess，uuid：418a0d1d-4d5d-3312-b41e-2b2c554b7de0， 2、密码：auto，tls：false，网络：ws，ws-path：/iso，ws-headers：{主机：SCDN.2337.ZKLDMF.China-nCDN-nRDS.com}}
+  - {name: 🇸🇬 新加坡白嫖 A, 服务器: 122.248.218.227, 端口: 10100, 类型: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, 0tls Id: 假, 密码: 假: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
+  - {name: 🇸🇬 新加坡白嫖 B, 服务器: 122.248.218.227, 端口: 10200, 类型: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, 0tls Id: 假, 密码: 假: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
+  - {name: 🇯🇵 日本白嫖 A, 服务器: 3.112.196.158, 端口: 10800, 类型: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: auto,t network, 0, : ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
+  - {name: 🇯🇵 日本白嫖 B, 服务器: 3.112.196.158, 端口: 60800, 类型: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: auto,t network, 0, : ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
+  - {名称：🇰🇷韩国白嫖 A，服务器：54.180.105.108，端口：10500，类型：vmess，uuid：80d862b4-cb7d-3cca-91f9-88df91c188bb，网络：假，密码：0 : ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
+  - {名称：🇰🇷韩国白嫖 B，服务器：54.180.105.108，端口：10100，类型：vmess，uuid：80d862b4-cb7d-3cca-91f9-88df91c188bb，网络：假，密码：0 : ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
+  - {name: 🇭🇰 香港白嫖 A, 服务器: 16.162.33.247, 端口: 11200, 类型: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: auto,t network, 0, : ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
+  - {name: 🇭🇰 香港白嫖 B, 服务器: 16.162.33.247, 端口: 10900, 类型: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: auto,t network, : ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
+  - {名称：🇷🇺俄罗斯1号200m，服务器：els.justcn2.top，端口：80，类型：vmess，uuid：3ef0a9a3-c875-3647-a501-5f4d9ecce24c，alterId：4，密码：自动，t , 网络: ws, ws-path: /omanko.mp4, ws-headers: {Host: pull.free.video.10010.com}}
+  - {名称：🇭🇰 香港 3.5Gbps 1 号，服务器：xg1.justcn2.top，端口：80，类型：vmess，uuid：3ef0a9a3-c875-3647-a501-5f4d9ecce24c，alterId：4，ls：密码：auto， false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
+  - {name:🇭🇰 香港3号2Gbps /台湾流媒体乐器, server: xg3.justcn2.top, port: 80, type: vmess, uuid: 3ef0a9a3-c875-3647-a501-5f4d9ecce24c, alterId: 4, auto, tls: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
