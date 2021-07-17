@@ -41,6 +41,7 @@ proxies:
     username: "433608252467445760"
     password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
     tls: true
+  - {name: 炼妖壶*1, server: q1.proxypools.top, port: 443, type: trojan, password: 16d3fcb9-639b-45e3-a574-6ab0350a7393, sni: q1.proxypools.top, skip-cert-verify: true, udp: true}
   - {name: 轩辕剑*1, server: a2.proxypools.top, port: 443, type: vmess, uuid: 16d3fcb9-639b-45e3-a574-6ab0350a7393, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /hishenseven, ws-headers: {Host: a2.proxypools.top}, udp: true}
   - {name: 崆峒印*1, server: a1.proxypools.top, port: 8443, type: trojan, password: 16d3fcb9-639b-45e3-a574-6ab0350a7393, sni: a1.proxypools.top, skip-cert-verify: true, udp: true}
   - {name: 古帝剑*1, server: n1.digiteri.com, port: 8443, type: vmess, uuid: 16d3fcb9-639b-45e3-a574-6ab0350a7393, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /shensevens, ws-headers: {Host: n1.digiteri.com}}
