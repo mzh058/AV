@@ -4,43 +4,49 @@ proxies:
     server: jc.ap.fastqvpn.com
     port: 29980
     username: "433608252467445760"
-    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
+    password: a5dd0e7b-0e5c-489e-a83a-1005d7410208
     tls: true
   - name: 美国
     type: http
     server: jc.ap.fastqvpn.com
     port: 29983
     username: "433608252467445760"
-    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
+    password: a5dd0e7b-0e5c-489e-a83a-1005d7410208
     tls: true
   - name: 美国
     type: http
     server: jc.ap.fastqvpn.com
     port: 29984
     username: "433608252467445760"
-    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
+    password: a5dd0e7b-0e5c-489e-a83a-1005d7410208
     tls: true
   - name: 日本 东京
     type: http
     server: jc.ap.fastqvpn.com
     port: 29985
     username: "433608252467445760"
-    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
+    password: a5dd0e7b-0e5c-489e-a83a-1005d7410208
     tls: true
   - name: 英国伦敦
     type: http
     server: jc.ap.fastqvpn.com
     port: 29987
     username: "433608252467445760"
-    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
+    password: a5dd0e7b-0e5c-489e-a83a-1005d7410208
     tls: true
   - name: 美国 加利福尼亚州费利蒙
     type: http
     server: jc.ap.fastqvpn.com
     port: 29988
     username: "433608252467445760"
-    password: 62cd8fff-3115-4143-b3f9-5e945cb6c291
+    password: a5dd0e7b-0e5c-489e-a83a-1005d7410208
     tls: true
+  - {name: 炼妖壶*1, server: q1.proxypools.top, port: 443, type: trojan, password: 16d3fcb9-639b-45e3-a574-6ab0350a7393, sni: q1.proxypools.top, skip-cert-verify: true, udp: true}
+  - {name: 轩辕剑*1, server: a2.proxypools.top, port: 443, type: vmess, uuid: 16d3fcb9-639b-45e3-a574-6ab0350a7393, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /hishenseven, ws-headers: {Host: a2.proxypools.top}, udp: true}
+  - {name: 崆峒印*1, server: a1.proxypools.top, port: 8443, type: trojan, password: 16d3fcb9-639b-45e3-a574-6ab0350a7393, sni: a1.proxypools.top, skip-cert-verify: true, udp: true}
+  - {name: 古帝剑*1, server: n1.digiteri.com, port: 8443, type: vmess, uuid: 16d3fcb9-639b-45e3-a574-6ab0350a7393, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /shensevens, ws-headers: {Host: n1.digiteri.com}}
+  - {name: 开天斧*10, server: n2.digiteri.com, port: 8443, type: vmess, uuid: 16d3fcb9-639b-45e3-a574-6ab0350a7393, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /tg2shenseven, ws-headers: {Host: n2.digiteri.com}}
+  - {name: 神农鼎*10, server: v1.proxypools.top, port: 8443, type: trojan, password: 16d3fcb9-639b-45e3-a574-6ab0350a7393, sni: v1.proxypools.top, skip-cert-verify: true}
   - {name: 白嫖香港, server: www.freeyule.ml, port: 9893, type: ss, cipher: aes-256-cfb, password: about-tg@freeyule!}
   - {name: 🇨🇳 31.『ChinaG』几鸡-学习助理, server: SCDN.2331.VOLAKT.China-nCDN-nRDS.com, port: 2331, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2331.VOLAKT.China-nCDN-nRDS.com}}
   - {name: 33.公益等级線路嚴格限速, server: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com, port: 2333, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com}}
@@ -65,17 +71,3 @@ proxies:
   - {name: 🇭🇰 香港3-V2RAY, server: hk03-vm0.ikuuu.casa, port: 893, type: vmess, uuid: 56019cad-c9b9-3793-a5aa-078e2216e88c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: hk03-vm0.ikuuu.casa}}
   - {name: 🇯🇵 日本3-V2RAY, server: jp03-vm0.ikuuu.casa, port: 448, type: vmess, uuid: 56019cad-c9b9-3793-a5aa-078e2216e88c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp03-vm0.ikuuu.casa}}
   - {name: 🇭🇰 香港4-V2Ray, server: hk04-vm0.ikuuu.casa, port: 893, type: vmess, uuid: 56019cad-c9b9-3793-a5aa-078e2216e88c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.ts, ws-headers: {Host: hk04-vm0.ikuuu.casa}}
-  - {name: 太苍枪★★★, server: p1.digiteri.com, port: 8443, type: trojan, password: 16d3fcb9-639b-45e3-a574-6ab0350a7393, sni: p1.digiteri.com, skip-cert-verify: true, udp: true}
-  - {name: 霸王弓★★★, server: t2.digiteri.com, port: 2087, type: trojan, password: 16d3fcb9-639b-45e3-a574-6ab0350a7393, sni: t2.digiteri.com, skip-cert-verify: true, udp: true}
-  - {name: 神农鼎★★, server: v1.proxypools.top, port: 8443, type: trojan, password: 16d3fcb9-639b-45e3-a574-6ab0350a7393, sni: v1.proxypools.top, skip-cert-verify: true, udp: true}
-  - {name: 乾坤罩★★, server: t1.proxypools.top, port: 8443, type: trojan, password: 16d3fcb9-639b-45e3-a574-6ab0350a7393, sni: t1.proxypools.top, skip-cert-verify: true, udp: true}
-  - {name: 崆峒印★, server: a1.proxypools.top, port: 8443, type: trojan, password: 16d3fcb9-639b-45e3-a574-6ab0350a7393, sni: a1.proxypools.top, skip-cert-verify: true, udp: true}
-  - {name: 炼妖壶★, server: q1.proxypools.top, port: 443, type: trojan, password: 16d3fcb9-639b-45e3-a574-6ab0350a7393, sni: q1.proxypools.top, skip-cert-verify: true, udp: true}
-  - {name: 打神石★★★, server: gy.nkeo.top, port: 45443, type: trojan, password: 16d3fcb9-639b-45e3-a574-6ab0350a7393, sni: gy.nkeo.top, skip-cert-verify: true, udp: true}
-  - {name: 开天斧★★, server: n2.digiteri.com, port: 8443, type: vmess, uuid: 16d3fcb9-639b-45e3-a574-6ab0350a7393, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /tg2shenseven, ws-headers: {Host: n2.digiteri.com}, udp: true}
-  - {name: 紫月鞭★★★, server: n3.digiteri.com, port: 2087, type: vmess, uuid: 16d3fcb9-639b-45e3-a574-6ab0350a7393, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /proxypools, ws-headers: {Host: n3.digiteri.com}, udp: true}
-  - {name: 日月戟★★, server: n4.digiteri.com, port: 8443, type: vmess, uuid: 16d3fcb9-639b-45e3-a574-6ab0350a7393, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /shenseven, ws-headers: {Host: n4.digiteri.com}, udp: true}
-  - {name: 伏羲琴★★★, server: v2.proxypools.top, port: 2087, type: vmess, uuid: 16d3fcb9-639b-45e3-a574-6ab0350a7393, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /shenseven, ws-headers: {Host: v2.proxypools.top}, udp: true}
-  - {name: 昆仑镜★, server: n1.proxypools.top, port: 2087, type: vmess, uuid: 16d3fcb9-639b-45e3-a574-6ab0350a7393, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /tg2shenseven, ws-headers: {Host: n1.proxypools.top}, udp: true}
-  - {name: 轩辕剑★, server: a2.proxypools.top, port: 443, type: vmess, uuid: 16d3fcb9-639b-45e3-a574-6ab0350a7393, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /hishenseven, ws-headers: {Host: a2.proxypools.top}, udp: true}
-  - {name: 昊天塔★, server: q2.proxypools.top, port: 8443, type: vmess, uuid: 16d3fcb9-639b-45e3-a574-6ab0350a7393, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /tg2shenseven, ws-headers: {Host: q2.proxypools.top}, udp: true}
