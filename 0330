@@ -77,6 +77,8 @@ proxies:
   - {name: 🇨🇳 中国 镇江20m 自动翻墙 台湾动画疯, server: 222.186.151.182, port: 80, type: vmess, uuid: 3ef0a9a3-c875-3647-a501-5f4d9ecce24c, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /ojinging.mp4, ws-headers: {Host: lt.hn.189.cn:1082}}
   - {name: 🇭🇰 香港 3.5Gbps 1号, server: xg1.justcn2.top, port: 80, type: vmess, uuid: 3ef0a9a3-c875-3647-a501-5f4d9ecce24c, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
   - {name: 🇭🇰 香港 3号 2Gbps /台湾流媒体解锁, server: xg3.justcn2.top, port: 80, type: vmess, uuid: 3ef0a9a3-c875-3647-a501-5f4d9ecce24c, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
-  - {name: 🇭🇰 HK_368, server: kaizen-hk-2.cn0.me, port: 443, type: trojan, password: 18e513fe-f7f4-353d-84ca-bc9646fb2528mielink, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 HK_369, server: kaizen-hk-4.cn0.me, port: 443, type: trojan, password: 18e513fe-f7f4-353d-84ca-bc9646fb2528mielink, skip-cert-verify: true, udp: true}
-
+  - {name:  日本-1 FREE, server: superstar.jp.01.free.srayx.xyz, port: 23101, type: ss, cipher: chacha20-ietf-poly1305, password: 00c61bd1-5be5-40f8-ac94-37592c450ecd, udp: true}
+  - {name:  香港-1 FREE, server: superstar.hk.01.free.srayx.xyz, port: 23000, type: ss, cipher: chacha20-ietf-poly1305, password: 00c61bd1-5be5-40f8-ac94-37592c450ecd, udp: true}
+  - {name:  香港-2 FREE, server: superstar.hk.02.free.srayx.xyz, port: 23002, type: ss, cipher: chacha20-ietf-poly1305, password: 00c61bd1-5be5-40f8-ac94-37592c450ecd, udp: true}
+  - {name:  香港-3 FREE, server: superstar.hk.03.free.srayx.xyz, port: 23003, type: ss, cipher: chacha20-ietf-poly1305, password: 00c61bd1-5be5-40f8-ac94-37592c450ecd, udp: true}
+  - {name:  香港-4 FREE, server: superstar.hk.04.free.srayx.xyz, port: 23004, type: ss, cipher: chacha20-ietf-poly1305, password: 00c61bd1-5be5-40f8-ac94-37592c450ecd, udp: true}
