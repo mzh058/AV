@@ -45,32 +45,20 @@ proxies:
     server: pt2.centaur.network
     port: 8090
     type: http
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
     tls: true
     skip-cert-verify: true
   - name: 香港pt1
     server: pt2.centaur.network
     port: 8091
     type: http
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
     tls: true
     skip-cert-verify: true  
   - name: 香港pt2
     server: pt2.centaur.network
     port: 8092
     type: http
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
     tls: true
   - {name: 白嫖香港, server: www.freeyule.ml, port: 9893, type: ss, cipher: aes-256-cfb, password: about-tg@freeyule!}
-  - {name: 🇨🇳 31.『ChinaG』几鸡-学习助理, server: SCDN.2331.VOLAKT.China-nCDN-nRDS.com, port: 2331, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2331.VOLAKT.China-nCDN-nRDS.com}}
-  - {name: 33.公益等级線路嚴格限速, server: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com, port: 2333, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com}}
-  - {name: 🇨🇳 34.捐赠解锁更多协议线路, server: SCDN.2334.BLKOAJ.China-nCDN-nRDS.com, port: 2334, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2334.BLKOAJ.China-nCDN-nRDS.com}}
-  - {name: 35.包括V2ray和Trojan, server: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com, port: 2335, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com}}
-  - {name: 36.中继中转隧道线路覆盖, server: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com, port: 2336, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com}}
-  - {name: 37.长期套餐覆盖IPLC专线, server: SCDN.2337.ZKLDMF.China-nCDN-nRDS.com, port: 2337, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2337.ZKLDMF.China-nCDN-nRDS.com}}
   - {name: 🇸🇬 新加坡白嫖 A, server: 122.248.218.227, port: 10100, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
   - {name: 🇸🇬 新加坡白嫖 B, server: 122.248.218.227, port: 10200, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
   - {name: 🇯🇵 日本白嫖 A, server: 3.112.196.158, port: 10800, type: vmess, uuid: 80d862b4-cb7d-3cca-91f9-88df91c188bb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /zh-cn, ws-headers: {Host: microsoft.com}}
