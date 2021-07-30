@@ -1,5 +1,11 @@
 proxies:
-  - name: 香港特别行政区, type: http, server: jc.ap.fastqvpn.com, port: 29980, username: "433608252467445760", password: 98ec93ee-e415-440d-a1de-0b0961112cc6, tls: true
+  - name: 香港特别行政区
+    type: http
+    server: jc.ap.fastqvpn.com
+    port: 29980
+    username: "433608252467445760"
+    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
+    tls: true
   - name: 美国
     type: http
     server: jc.ap.fastqvpn.com
@@ -34,23 +40,6 @@ proxies:
     port: 29988
     username: "433608252467445760"
     password: 98ec93ee-e415-440d-a1de-0b0961112cc6
-    tls: true
-  - name: 香港pt0
-    server: pt2.centaur.network
-    port: 8090
-    type: http
-    tls: true
-    skip-cert-verify: true
-  - name: 香港pt1
-    server: pt2.centaur.network
-    port: 8091
-    type: http
-    tls: true
-    skip-cert-verify: true  
-  - name: 香港pt2
-    server: pt2.centaur.network
-    port: 8092
-    type: http
     tls: true
   - {name: 白嫖香港, server: www.freeyule.ml, port: 9893, type: ss, cipher: aes-256-cfb, password: about-tg@freeyule!}
   - {name: 🇷🇺 俄罗斯  | 公益 | A | 1.75x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |, server: gonyi2.gpche-pravec.info, port: 822, type: vmess, uuid: 75077795-19c5-3f3d-9405-0713033610f8, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.ceshi.me}, udp: true}
