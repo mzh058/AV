@@ -1,11 +1,5 @@
 proxies:
-  - name: 香港特别行政区
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29980
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
-    tls: true
+  - name: 香港特别行政区, type: http, server: jc.ap.fastqvpn.com, port: 29980, username: "433608252467445760", password: 98ec93ee-e415-440d-a1de-0b0961112cc6, tls: true
   - name: 美国
     type: http
     server: jc.ap.fastqvpn.com
@@ -77,22 +71,4 @@ proxies:
   - {name: 🇨🇳 中国 镇江20m 自动翻墙 台湾动画疯, server: 222.186.151.182, port: 80, type: vmess, uuid: 3ef0a9a3-c875-3647-a501-5f4d9ecce24c, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /ojinging.mp4, ws-headers: {Host: lt.hn.189.cn:1082}}
   - {name: 🇭🇰 香港 3.5Gbps 1号, server: xg1.justcn2.top, port: 80, type: vmess, uuid: 3ef0a9a3-c875-3647-a501-5f4d9ecce24c, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
   - {name: 🇭🇰 香港 3号 2Gbps /台湾流媒体解锁, server: xg3.justcn2.top, port: 80, type: vmess, uuid: 3ef0a9a3-c875-3647-a501-5f4d9ecce24c, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}}
-  - {name:  日本-1 FREE, server: superstar.jp.01.free.srayx.xyz, port: 23101, type: ss, cipher: chacha20-ietf-poly1305, password: 00c61bd1-5be5-40f8-ac94-37592c450ecd, udp: true}
-  - {name:  香港-1 FREE, server: superstar.hk.01.free.srayx.xyz, port: 23000, type: ss, cipher: chacha20-ietf-poly1305, password: 00c61bd1-5be5-40f8-ac94-37592c450ecd, udp: true}
-  - {name:  香港-2 FREE, server: superstar.hk.02.free.srayx.xyz, port: 23002, type: ss, cipher: chacha20-ietf-poly1305, password: 00c61bd1-5be5-40f8-ac94-37592c450ecd, udp: true}
-  - {name:  香港-3 FREE, server: superstar.hk.03.free.srayx.xyz, port: 23003, type: ss, cipher: chacha20-ietf-poly1305, password: 00c61bd1-5be5-40f8-ac94-37592c450ecd, udp: true}
-  - {name:  香港-4 FREE, server: superstar.hk.04.free.srayx.xyz, port: 23004, type: ss, cipher: chacha20-ietf-poly1305, password: 00c61bd1-5be5-40f8-ac94-37592c450ecd, udp: true}
-  - {name: 🇯🇵 日本01 - 中转 - 银河机场, server: azhk5.pengui.tools, port: 60015, type: vmess, uuid: 870f5606-51fd-4598-abe7-79347858f2d6, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk5.pengui.tools}}
-  - {name: 🇨🇳 31.『ChinaG』几鸡-学习助理, server: SCDN.2331.VOLAKT.China-nCDN-nRDS.com, port: 2331, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2331.VOLAKT.China-nCDN-nRDS.com}}
-  - {name: 33.公益等级線路嚴格限速, server: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com, port: 2333, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2333.ZXBVTV.China-nCDN-nRDS.com}}
-  - {name: 🇨🇳 34.捐赠解锁更多协议线路, server: SCDN.2334.BLKOAJ.China-nCDN-nRDS.com, port: 2334, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2334.BLKOAJ.China-nCDN-nRDS.com}}
-  - {name: 35.包括V2ray和Trojan, server: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com, port: 2335, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com}}
-  - {name: 36.中继中转隧道线路覆盖, server: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com, port: 2336, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com}}
-  - {name: 37.长期套餐覆盖IPLC专线, server: SCDN.2337.ZKLDMF.China-nCDN-nRDS.com, port: 2337, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2337.ZKLDMF.China-nCDN-nRDS.com}}
-  - {name: 🇨🇳 CN_814, server: ngzyd-1.okex-tradebot.xyz, port: 30002, type: vmess, uuid: 07759579-46af-410d-9522-90015fdee5cd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
-  - {name: 🇸🇬 SG_5258, server: 13.250.30.143, port: 80, type: vmess, uuid: 2be128f2-0866-3855-ba64-e0168076893a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /y56ur, ws-headers: {Host: 13.250.30.143}}
-  - {name: 🇸🇬 SG_5255, server: 13.250.30.143, port: 80, type: vmess, uuid: 9d8b0656-f5d1-3694-8c76-2decb06670ea, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /y56ur, ws-headers: {Host: 13.250.30.143}}
-
-
-
 
