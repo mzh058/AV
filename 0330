@@ -89,3 +89,10 @@ proxies:
   - {name: 35.包括V2ray和Trojan, server: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com, port: 2335, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2335.DLZLTQ.China-nCDN-nRDS.com}}
   - {name: 36.中继中转隧道线路覆盖, server: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com, port: 2336, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2336.FOLVKQ.China-nCDN-nRDS.com}}
   - {name: 37.长期套餐覆盖IPLC专线, server: SCDN.2337.ZKLDMF.China-nCDN-nRDS.com, port: 2337, type: vmess, uuid: 418a0d1d-4d5d-3312-b41e-2b2c554b7de0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /iso, ws-headers: {Host: SCDN.2337.ZKLDMF.China-nCDN-nRDS.com}}
+  - {name: 🇨🇳 CN_814, server: ngzyd-1.okex-tradebot.xyz, port: 30002, type: vmess, uuid: 07759579-46af-410d-9522-90015fdee5cd, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 🇸🇬 SG_5258, server: 13.250.30.143, port: 80, type: vmess, uuid: 2be128f2-0866-3855-ba64-e0168076893a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /y56ur, ws-headers: {Host: 13.250.30.143}}
+  - {name: 🇸🇬 SG_5255, server: 13.250.30.143, port: 80, type: vmess, uuid: 9d8b0656-f5d1-3694-8c76-2decb06670ea, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /y56ur, ws-headers: {Host: 13.250.30.143}}
+
+
+
+
