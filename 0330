@@ -43,7 +43,7 @@ proxies:
     tls: true
   - name: 未知
     type: http
-    server: gj.centaur.network
+    server: gj.ap.fastqvpn.com
     port: 29980
     username: "433608252467445760"
     password: 98ec93ee-e415-440d-a1de-0b0961112cc6
