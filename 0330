@@ -1,49 +1,5 @@
 proxies:
-  - name: 香港特别行政区
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29980
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
-    tls: true
-  - name: 美国
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29983
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
-    tls: true
-  - name: 美国
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29984
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
-    tls: true
-  - name: 日本 东京
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29985
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
-    tls: true
-  - name: 英国伦敦
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29987
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
-    tls: true
-  - name: 美国 加利福尼亚州费利蒙
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29988
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
-    tls: true
-  - {name: Pool_ | 6.62Mb, server: 89.187.168.39, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: Pool_ | 6.65Mb, server: 69.30.249.125, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}proxies:
-  - name: 香港特别行政区
+- name: 香港特别行政区
     type: http
     server: jc.ap.fastqvpn.com
     port: 29980
