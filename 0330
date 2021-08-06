@@ -48,34 +48,56 @@ proxies:
     username: "433608252467445760"
     password: 98ec93ee-e415-440d-a1de-0b0961112cc6
     tls: true
-  - {name: 🇪🇸 SS-TEST-Azure-HK-7.31, server: 40.83.118.180, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: 88e63efa-9cb7-4e00-a761-d975ecfa824b}
-  - {name: Pool_ | 6.62Mb, server: 89.187.168.39, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: Pool_ | 6.65Mb, server: 69.30.249.125, port: 49468, type: ss, cipher: aes-256-gcm, password: LsYSQDxmPj9AcWpSX5HrYfu6}
-  - {name: Pool_ | 6.80Mb, server: 185.59.220.150, port: 45948, type: ss, cipher: aes-256-gcm, password: j76EXqJcQhuQTr3EvUf7xaK9}
-  - {name: Pool_ | 6.83Mb, server: 178.239.173.41, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: Pool_ | 6.92Mb, server: 81.19.209.113, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: Pool_ | 7.43Mb, server: 5.157.13.91, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: Pool_ | 7.79Mb, server: 81.19.209.113, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: Pool_ | 7.80Mb, server: 138.199.19.132, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: Pool_ | 7.86Mb, server: 185.59.220.144, port: 49514, type: ss, cipher: aes-256-gcm, password: dpGjA4GkzV28QPDYzEp94cTe}
-  - {name: Pool_ | 8.54Mb, server: 89.187.168.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_ | 9.30Mb, server: 45.43.14.75, port: 48970, type: ss, cipher: aes-256-gcm, password: ZKEsXkFbUZ2z667YA8A7cEDP}
-  - {name: Pool_ |10.68Mb, server: 156.146.62.54, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: Pool_ |11.21Mb, server: 45.43.14.75, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: Pool_ |23.66Mb, server: 138.199.16.137, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇭🇰 HK_3211, server: transit-azure-f2s-hk.speedtestcustom.tk, port: 24217, type: ss, cipher: aes-256-cfb, password: about-tg@freeyule!}
-  - {name: 🇭🇰 HK_3214, server: wtt.comefromchinatown.com, port: 80, type: vmess, uuid: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: wtt.comefromchinatown.com}}
-  - {name: 🇭🇰 HK_3215, server: hk-9.azure.v2ray.ikuuu.pro, port: 448, type: vmess, uuid: 997026df-c1fd-3a00-ad16-f062d6bd4871, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: hk-9.azure.v2ray.ikuuu.pro}}
-  - {name: 🇭🇰 HK_3224, server: 23.100.95.69, port: 80, type: vmess, uuid: 40c8f0e6-8c60-4335-ce98-f321eeb0decf, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 23.100.95.69}}
-  - {name: 🇨🇳 TW_6275, server: 2.58.242.131, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇨🇳 TW_6282, server: 2.58.242.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇳 TW_6283, server: 2.58.242.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇳 TW_6285, server: 2.58.242.157, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇳 TW_6293, server: 2.58.242.53, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇨🇳 TW_6298, server: 2.58.242.131, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇨🇳 TW_6302, server: 2.58.242.131, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇨🇳 TW_6303, server: 2.58.242.155, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇳 TW_6306, server: 2.58.242.53, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇨🇳 TW_6310, server: 2.58.242.131, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇨🇳 TW_6312, server: 2.58.242.131, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇳 TW_6315, server: tw.tcpbbr.net, port: 80, type: vmess, uuid: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: broadcastlv.chat.bilibili.com}}
+  - {"name":"[INFO]剩余流量:1.04PB","type":"ss","server":"dukou.icu","port":1080,"cipher":"chacha20-ietf","password":"12345","udp":true}
+  - {"name":"[INFO]到期:2022-06-13 11:44:47","type":"ss","server":"dukou.icu","port":1080,"cipher":"chacha20-ietf","password":"12345","udp":true}
+  - {"name":"[其他用途]俄01","type":"trojan","server":"ru01-cu-1120.dukou.info","port":"2301","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"ru-1-542.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"[其他用途]俄02","type":"trojan","server":"ru02-cu-2240.dukou.info","port":"2302","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"ru-2-543.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"台1_|NF|动画疯","type":"trojan","server":"tw-cn-hk-relay-1-97861a.dukou.info","port":"5301","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"tw-1-544.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"台2_|NF|动画疯","type":"trojan","server":"tw-cn-hk-relay-2-184a76.dukou.info","port":"5302","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"tw-2-545.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"台3_|NF|动画疯","type":"trojan","server":"tw3-5412.dukouplan3.dev","port":"5303","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"tw-03-505.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"台4_|NF|动画疯","type":"trojan","server":"tw4-5545.dukouplan3.dev","port":"5304","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"tw-04-590.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"台5_|NF|动画疯","type":"trojan","server":"tw5-5564.dukouplan3.dev","port":"5305","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"tw-05-591.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"台6_|NF|动画疯","type":"trojan","server":"tw6-5641.dukouplan3.dev","port":"5306","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"tw-06-592.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"台7_|NF|动画疯","type":"trojan","server":"tw7-5756.dukouplan3.dev","port":"5307","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"tw-07-593.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"坡01_|NF","type":"trojan","server":"sg-cn-hk-relay-1-767f45.dukou.info","port":"9301","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"sgp-1-546.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"坡02_|NF","type":"trojan","server":"sg-cn-hk-relay-2-54bc52.dukou.info","port":"9302","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"sgp-2-547.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"坡03_NF","type":"trojan","server":"sg-cn-hk-relay-3-dd4440.dukou.info","port":"9303","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"sgp-3-548.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"坡04_|NF","type":"trojan","server":"sg-cn-hk-relay-4-40e978.dukou.info","port":"9304","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"sgp-4-549.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"坡05_|NF","type":"trojan","server":"sg-cn-hk-relay-5-51f087.dukou.info","port":"9305","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"sgp-5-550.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"坡06","type":"trojan","server":"sg-cn-relay-6-689145.dukou.info","port":"9306","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"sgp-6-551.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"坡07","type":"trojan","server":"sg-cn-relay-7-74812.dukou.info","port":"9307","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"sgp-7-552.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"坡08","type":"trojan","server":"sg-cn-relay-8-14852.dukou.info","port":"9308","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"sgp-8-553.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"日01_|NF|DMM","type":"trojan","server":"shanghai-router1-892412-jp1.dukou.info","port":"6301","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"jp-1-554.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"日02_|NF|DMM","type":"trojan","server":"shanghai-router1-892412-jp2.dukou.info","port":"6302","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"jp-2-555.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"日03_|NF|DMM","type":"trojan","server":"shanghai-router1-892412-jp3.dukou.info","port":"6303","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"jp-3-556.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"日04_|NF|DMM","type":"trojan","server":"shanghai-router1-892412-jp4.dukou.info","port":"6304","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"jp-4-557.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"日05","type":"trojan","server":"shanghai-router1-892412-jp5.dukou.info","port":"6305","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"jp-5-558.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"日06","type":"trojan","server":"shanghai-router1-892412-jp6.dukou.info","port":"6306","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"jp-6-559.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"日07","type":"trojan","server":"jp-shanghai-ss-07.dukou.info","port":"6307","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"jp-07-486.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"日08","type":"trojan","server":"jp-shanghai-ss-08.dukou.info","port":"6308","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"jp-08-487.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"港01_|NF","type":"trojan","server":"hk-route-12369-1.dukou.info","port":"8301","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"hk-1-560.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"港02_|NF","type":"trojan","server":"hk-route-12369-2.dukou.info","port":"8302","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"hk-2-561.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"港03_|NF","type":"trojan","server":"hk-route-12369-3.dukou.info","port":"8303","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"hk-3-562.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"港04_|NF","type":"trojan","server":"shanghai-router2-hk4-5478.dukou.info","port":"8304","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"hk04-01-azure-24567.dukou.info","skip-cert-verify":true,"udp":true}
+  - {"name":"港05_|NF|TVB","type":"trojan","server":"shanghai-router2-hk5-5478.dukou.info","port":"8305","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"hk04-azure-uihn01.dukou.info","skip-cert-verify":true,"udp":true}
+  - {"name":"港06_|NF|TVB","type":"trojan","server":"hk-route-12369-6.dukou.info","port":"8306","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"hk-6-563.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"港07","type":"trojan","server":"hk-route2-azure-hk7.dukou.info","port":"8307","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"hk-7-564.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"港08","type":"trojan","server":"hk-route2-azure-hk8.dukou.info","port":"8308","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"hk-8-565.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"港09","type":"trojan","server":"hk-route-12369-9.dukou.info","port":"8309","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"hk-9-566.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"港10","type":"trojan","server":"hk10-gray.dukou.info","port":"8310","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"hk-10-567.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"港11","type":"trojan","server":"hk11-5423.dukouplan3.dev","port":"8011","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"hk-11-497.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"港12","type":"trojan","server":"hk12-5510.dukouplan3.dev","port":"8012","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"hk-12-498.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"港13","type":"trojan","server":"hk-cnrelay-13-138465.dukou.info","port":"8313","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"hk-13-568.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"港14","type":"trojan","server":"hk-cnrelay-14-142345.dukou.info","port":"8314","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"hk-14-569.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"美1_|NF","type":"trojan","server":"us-cn-hk-relay-1-3bdb3b.dukou.info","port":"7301","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"us-1-570.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"美2_|NF","type":"trojan","server":"us-cn-hk-relay-2-3cc426.dukou.info","port":"7302","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"us-2-571.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"美3","type":"trojan","server":"us-cn-hk-relay-3-49ae82.dukou.info","port":"7303","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"us-3-572.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"美4","type":"trojan","server":"us-cn-hk-relay-4-bd5e54.dukou.info","port":"7304","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"us-4-573.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"美5","type":"trojan","server":"hk-route-12369-us5.dukou.info","port":"7005","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"us-vultr-5.dukou.info","skip-cert-verify":true,"udp":true}
+  - {"name":"韩1","type":"trojan","server":"kr-cn-relay-1-452x4.dukou.info","port":"3301","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"kr-1-574.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"韩2","type":"trojan","server":"kr-cn-relay-2-32v22.dukou.info","port":"3302","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"kr-2-575.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"韩3","type":"trojan","server":"kr-cn-relay-3-9iuh56.dukou.info","port":"3303","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"kr-3-576.dukouplan3.dev","skip-cert-verify":true,"udp":true}
+  - {"name":"韩4","type":"trojan","server":"kr-cn-relay-4-45523.dukou.info","port":"3304","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"kr4-vultr.dukou.info","skip-cert-verify":true,"udp":true}
+  - {"name":"韩5","type":"trojan","server":"kr-cn-relay-5-566d12.dukou.info","port":"3305","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"kr5-485.dukou.info","skip-cert-verify":true,"udp":true}
+  - {"name":"韩6","type":"trojan","server":"kr-cn-relay-6-6454dc.dukou.info","port":"3306","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"kr6-490.dukou.info","skip-cert-verify":true,"udp":true}
+
