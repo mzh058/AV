@@ -101,3 +101,6 @@ proxies:
   - {"name":"韩5","type":"trojan","server":"kr-cn-relay-5-566d12.dukou.info","port":"3305","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"kr5-485.dukou.info","skip-cert-verify":true,"udp":true}
   - {"name":"韩6","type":"trojan","server":"kr-cn-relay-6-6454dc.dukou.info","port":"3306","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"kr6-490.dukou.info","skip-cert-verify":true,"udp":true}
   - {name: 233v2.com_ss_13.127.216.209, server: 13.127.216.209, port: 2333, type: ss, cipher: chacha20-ietf-poly1305, password: publicss}
+  - {name: 🏳️‍🌈 日本测试-500G流量, server: 3.113.29.123, port: 80, type: ss, cipher: aes-256-gcm, password: wSQQA5ld16}
+
+
