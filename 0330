@@ -102,5 +102,6 @@ proxies:
   - {"name":"韩6","type":"trojan","server":"kr-cn-relay-6-6454dc.dukou.info","port":"3306","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"kr6-490.dukou.info","skip-cert-verify":true,"udp":true}
   - {name: 233v2.com_ss_13.127.216.209, server: 13.127.216.209, port: 2333, type: ss, cipher: chacha20-ietf-poly1305, password: publicss}
   - {name: 🏳️‍🌈 日本测试-500G流量, server: 3.113.29.123, port: 80, type: ss, cipher: aes-256-gcm, password: wSQQA5ld16}
-
+  - {name: 更多节点可前往 https://t.me/caofeimer 获取, server: jru.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: f00887b5-7911-4b74-a69d-7894d991a1c6}
+  - {name: 更多节点可前往 https://t.me/caofeimer 获取 2, server: anyhkpf.misaka.rest, port: 28739, type: vmess, uuid: 3ead0e60-d4df-43e0-87b1-6bea072518c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: anyhkpf.misaka.rest}}
 
