@@ -63,9 +63,7 @@ proxies:
   - {name: 🇯🇵 ZTMD快日本2, server: 13.231.172.143, port: 8085, type: vmess, uuid: 12417651-3466-40a6-8344-4304b0be18cc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 13.231.172.143}}
   - {name: 🇰🇷 ZTMD快韩国, server: 3.35.18.178, port: 8085, type: vmess, uuid: 12417651-3466-40a6-8344-4304b0be18cc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 3.35.18.178}}
   - {name: 🇸🇬 ZTMD快新加坡1, server: 54.169.247.115, port: 80, type: vmess, uuid: 12417651-3466-40a6-8344-4304b0be18cc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 54.169.247.115}}
-  - {name: 1, server: 89.163.245.185, port: 42181, type: ss, cipher: rc4, password: dongtaiwang.com 123abc}
-  - {name: 2, server: 89.163.245.185, port: 42181, type: ss, cipher: rc4, password: dongtaiwang.com 123abc}
-  - {name: 3, server: 162.14.11.175, port: 37387, type: ss, cipher: rc4-md5, password: qbpJjZ}
-  - {name: 4, server: 45.147.200.9, port: 42181, type: ss, cipher: rc4, password: dongtaiwang.com 123abc}
-  - {name: 5, server: 89.163.245.185, port: 42181, type: ss, cipher: rc4, password: dongtaiwang.com 123abc}
+  - {name:  1, server: 89.163.245.185, port: 42181, type: ss, cipher: rc4, password: dongtaiwang.com 123abc}
+  - {name:  3, server: 162.14.11.175, port: 37387, type: ss, cipher: rc4-md5, password: qbpJjZ}
+  - {name:  4, server: 45.147.200.9, port: 42181, type: ss, cipher: rc4, password: dongtaiwang.com 123abc}
 
