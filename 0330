@@ -58,6 +58,10 @@ proxies:
   - {name: 🇭🇰 SS HK - AsunaC. NTT/BGP, server: ahk.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: f00887b5-7911-4b74-a69d-7894d991a1c6, udp: true}
   - {name: 更多节点可前往 https://t.me/caofeimer 获取, server: jru.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: f00887b5-7911-4b74-a69d-7894d991a1c6}
   - {name: 更多节点可前往 https://t.me/caofeimer 获取 2, server: anyhkpf.misaka.rest, port: 28739, type: vmess, uuid: 3ead0e60-d4df-43e0-87b1-6bea072518c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: anyhkpf.misaka.rest}}
-
+  - {name: 🇭🇰 ZTMD快香港1, server: 16.162.120.0, port: 80, type: vmess, uuid: 12417651-3466-40a6-8344-4304b0be18cc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 16.162.120.0}}
+  - {name: 🇯🇵 ZTMD快日本1, server: 13.231.172.143, port: 80, type: vmess, uuid: 12417651-3466-40a6-8344-4304b0be18cc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 13.231.172.143}}
+  - {name: 🇯🇵 ZTMD快日本2, server: 13.231.172.143, port: 8085, type: vmess, uuid: 12417651-3466-40a6-8344-4304b0be18cc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 13.231.172.143}}
+  - {name: 🇰🇷 ZTMD快韩国, server: 3.35.18.178, port: 8085, type: vmess, uuid: 12417651-3466-40a6-8344-4304b0be18cc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 3.35.18.178}}
+  - {name: 🇸🇬 ZTMD快新加坡1, server: 54.169.247.115, port: 80, type: vmess, uuid: 12417651-3466-40a6-8344-4304b0be18cc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 54.169.247.115}}
 
 
