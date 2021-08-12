@@ -107,6 +107,8 @@ proxies:
   - {name: 🇭🇰 香港04-测试, server: 42.157.196.104, port: 20359, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 186972:KsxSYifLN5, obfs-param: ajax.microsoft.com}
   - {name: "🇸🇬 v2ray 新加坡(移动) [Netflix]", server: cm.cheapv2.xyz, port: 29901, type: vmess, uuid: 8bfe2a72-154f-31ff-a122-263996e32b9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}, udp: true}
   - {name: "🇸🇬 v2ray 新加坡(联通) [Netflix]", server: cu.cheapv2.xyz, port: 29901, type: vmess, uuid: 8bfe2a72-154f-31ff-a122-263996e32b9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
-
+  - {name: "🇺🇸 SS US - DogY. CN2 #1 45Mbps Limited", server: du1.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: f00887b5-7911-4b74-a69d-7894d991a1c6, udp: true}
+  - {name: "🇺🇸 SS US - DogY. CN2 #2 30Mbps Limited", server: du2.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: f00887b5-7911-4b74-a69d-7894d991a1c6, udp: true}
+  - {name: 🇭🇰 SS HK - CN2/BGP 30Mbps Limited, server: tchk.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: f00887b5-7911-4b74-a69d-7894d991a1c6, udp: true}
 
 
