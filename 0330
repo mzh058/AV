@@ -1,53 +1,4 @@
 proxies:
-  - name: 香港特别行政区
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29980
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
-    tls: true
-  - name: 美国
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29983
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
-    tls: true
-  - name: 美国
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29984
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
-    tls: true
-  - name: 日本 东京
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29985
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
-    tls: true
-  - name: 英国伦敦
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29987
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
-    tls: true
-  - name: 美国 加利福尼亚州费利蒙
-    type: http
-    server: jc.ap.fastqvpn.com
-    port: 29988
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
-    tls: true
-  - name: 香港
-    type: http
-    server: gj.ap.fastqvpn.com
-    port: 29980
-    username: "433608252467445760"
-    password: 98ec93ee-e415-440d-a1de-0b0961112cc6
-    tls: true
   - {"name":"[INFO]剩余流量:1.04PB","type":"ss","server":"dukou.icu","port":1080,"cipher":"chacha20-ietf","password":"12345","udp":true}
   - {"name":"[INFO]到期:2022-06-13 11:44:47","type":"ss","server":"dukou.icu","port":1080,"cipher":"chacha20-ietf","password":"12345","udp":true}
   - {"name":"[其他用途]俄01","type":"trojan","server":"ru01-cu-1120.dukou.info","port":"2301","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"ru-1-542.dukouplan3.dev","skip-cert-verify":true,"udp":true}
@@ -100,15 +51,13 @@ proxies:
   - {"name":"韩4","type":"trojan","server":"kr-cn-relay-4-45523.dukou.info","port":"3304","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"kr4-vultr.dukou.info","skip-cert-verify":true,"udp":true}
   - {"name":"韩5","type":"trojan","server":"kr-cn-relay-5-566d12.dukou.info","port":"3305","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"kr5-485.dukou.info","skip-cert-verify":true,"udp":true}
   - {"name":"韩6","type":"trojan","server":"kr-cn-relay-6-6454dc.dukou.info","port":"3306","password":"f2b8d872-3462-11e9-96d3-020b85e0a428","sni":"kr6-490.dukou.info","skip-cert-verify":true,"udp":true}
-  - {name: 233v2.com_ss_13.127.216.209, server: 13.127.216.209, port: 2333, type: ss, cipher: chacha20-ietf-poly1305, password: publicss}
-  - {name: 🏳️‍🌈 日本测试-500G流量, server: 3.113.29.123, port: 80, type: ss, cipher: aes-256-gcm, password: wSQQA5ld16}
+  - {name: 🇯🇵 SS JP - AWS NTT, server: ajp.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: f00887b5-7911-4b74-a69d-7894d991a1c6, udp: true}
+  - {name: 🇷🇺 SS RU - JustHost Mos CN2, server: jru.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: f00887b5-7911-4b74-a69d-7894d991a1c6, udp: true}
+  - {name: 🇸🇬 SS SG - NeroCloud BGP, server: sg.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: f00887b5-7911-4b74-a69d-7894d991a1c6, udp: true}
+  - {name: 🇺🇲 SS US - BuyVM LV, server: bv.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: f00887b5-7911-4b74-a69d-7894d991a1c6, udp: true}
+  - {name: 🇭🇰 SS HK - AsunaC. NTT/BGP, server: ahk.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: f00887b5-7911-4b74-a69d-7894d991a1c6, udp: true}
   - {name: 更多节点可前往 https://t.me/caofeimer 获取, server: jru.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: f00887b5-7911-4b74-a69d-7894d991a1c6}
   - {name: 更多节点可前往 https://t.me/caofeimer 获取 2, server: anyhkpf.misaka.rest, port: 28739, type: vmess, uuid: 3ead0e60-d4df-43e0-87b1-6bea072518c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: anyhkpf.misaka.rest}}
-  - {name: 🇭🇰 香港04-测试, server: 42.157.196.104, port: 20359, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 186972:KsxSYifLN5, obfs-param: ajax.microsoft.com}
-  - {name: "🇸🇬 v2ray 新加坡(移动) [Netflix]", server: cm.cheapv2.xyz, port: 29901, type: vmess, uuid: 8bfe2a72-154f-31ff-a122-263996e32b9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}, udp: true}
-  - {name: "🇸🇬 v2ray 新加坡(联通) [Netflix]", server: cu.cheapv2.xyz, port: 29901, type: vmess, uuid: 8bfe2a72-154f-31ff-a122-263996e32b9b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
-  - {name: "🇺🇸 SS US - DogY. CN2 #1 45Mbps Limited", server: du1.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: f00887b5-7911-4b74-a69d-7894d991a1c6, udp: true}
-  - {name: "🇺🇸 SS US - DogY. CN2 #2 30Mbps Limited", server: du2.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: f00887b5-7911-4b74-a69d-7894d991a1c6, udp: true}
-  - {name: 🇭🇰 SS HK - CN2/BGP 30Mbps Limited, server: tchk.misaka.rest, port: 11451, type: ss, cipher: aes-256-gcm, password: f00887b5-7911-4b74-a69d-7894d991a1c6, udp: true}
+
 
 
