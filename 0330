@@ -64,3 +64,6 @@ proxies:
   - {name: 🇰🇷 ZTMD快韩国, server: 3.35.18.178, port: 8085, type: vmess, uuid: 12417651-3466-40a6-8344-4304b0be18cc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 3.35.18.178}}
   - {name: 🇸🇬 ZTMD快新加坡1, server: 54.169.247.115, port: 80, type: vmess, uuid: 12417651-3466-40a6-8344-4304b0be18cc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 54.169.247.115}}
   - {name: 162.14.11.175:37387, server: 162.14.11.175, port: 37387, type: ss, cipher: rc4-md5, password: qbpJjZ}
+  - {name: sin|ss|aws, server: 13.251.128.126, port: 56783, type: ss, cipher: rc4-md5, password: !<str> 5229915743}
+
+
