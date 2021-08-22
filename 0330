@@ -1,14 +1,6 @@
 proxies:
   - {name: "🇸🇬 [NAT/AGA] 新加坡3 0x", server: a3f9de24309558b0c.awsglobalaccelerator.com, port: 24648, type: vmess, uuid: de9ac801-82d4-4dac-90c8-e2b1c3412e29, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a3f9de24309558b0c.awsglobalaccelerator.com}, udp: true}
   - {name: "🇸🇬 [直连] 新加坡3 aws game ss 0x", server: 54.254.45.125, port: 9999, type: ss, cipher: chacha20-ietf-poly1305, password: de9ac801-82d4-4dac-90c8-e2b1c3412e29, udp: true}
-  - {name: 🇯🇵 【公益】日本1-0x, server: jpvip1.pbaplink.xyz, port: 20000, type: trojan, password: e08f0d43-e543-45d6-8d0f-7b00a21b79c2, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 【公益】新加坡1-0x, server: sin01.publicss.cc, port: 20000, type: trojan, password: e08f0d43-e543-45d6-8d0f-7b00a21b79c2, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 【公益】新加坡2-0x, server: sg1.pbaplink.xyz, port: 20000, type: trojan, password: e08f0d43-e543-45d6-8d0f-7b00a21b79c2, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 【公益】新加坡3-0x, server: sin03.tencentlink.icu, port: 20000, type: trojan, password: e08f0d43-e543-45d6-8d0f-7b00a21b79c2, skip-cert-verify: false, udp: true}
   - {name: 🇷🇺 俄罗斯  | 公益 | A | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |, server: gonyi2.gpche-pravec.info, port: 822, type: vmess, uuid: 75077795-19c5-3f3d-9405-0713033610f8, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.baiyun.pw}, udp: true}
   - {name: 🇺🇲 美国   | 公益 | A | 2.0x  | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |, server: gonyi2.gpche-pravec.info, port: 837, type: vmess, uuid: 75077795-19c5-3f3d-9405-0713033610f8, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.baiyun.pw}, udp: true}
   - {name: "🇺🇲 美国 | 公益 | B1 | 2.0x | 官網 | ninihao.cc | 不保证速度与稳定性，如需稳定使用请购买套餐 |\t", server: gonyi2.gpche-pravec.info, port: 888, type: vmess, uuid: 75077795-19c5-3f3d-9405-0713033610f8, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1.baiyun.pw}, udp: true}
-  - {name: 🇸🇬 Singapore 4, server: 23.101.9.135, port: 111, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇸🇬 Singapore 5, server: 23.101.9.135, port: 112, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇸🇬 Singapore 6, server: 23.101.9.135, port: 110, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇸🇬 Singapore 16, server: 23.101.9.135, port: 113, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
