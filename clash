@@ -1,18 +1,9 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-bind-address: '*'
-mode: rule
+mode: Rule
 log-level: info
-ipv6: true
-external-controller: '127.0.0.1:9090'
-dns:
-    enable: true
-    ipv6: false
-    listen: '0.0.0.0:53'
-    enhanced-mode: redir-host
-    nameserver: [117.50.10.10, 119.29.29.29, 114.114.114.114, 223.5.5.5, 223.6.6.6]
-    Auto: ['tls://1.1.1.1:853', 'tls://1.0.0.1:853', 'tls://dns.google:853']
+external-controller: 127.0.0.1:9090
 proxies:
     - { name: US_Rea_1, type: vless, server: us1.speed-mitce.top, port: 80, uuid: 65DEB641-DA3E-4F59-9E99-98DC3C751DD9, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
     - { name: US_Rea_2, type: vless, server: us2.speed-mitce.top, port: 443, uuid: 65DEB641-DA3E-4F59-9E99-98DC3C751DD9, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
