@@ -3,10 +3,10 @@
 TG导航：https://t.me/TBBAD
 
 👉【杏吧】亚洲最大成人社区
-  https://h2en514vap.cc/xb-ofyw1xb
+  https://vsuoykxs.vip/xb-ofyw1xb
 
 👉【海角社区】百万热门成人视频，全网每日更新
-  https://zl46h7og6f.cc/hjsqnew-ofyw1hjsq
+  https://qb41t7y9.com/hjsqnew-ofyw1hjsq
 
 👉【稀幼18禁】稀幼萝莉聚集地，陪聊约炮，每日更新600部
   https://5wmtynfo.fnrckb5wukjv.com:6969/e/3/MILLAYWS
