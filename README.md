@@ -28,9 +28,3 @@ TG导航：https://t.me/TBBAD
 
 👉【成人优酷】清纯萝莉·JK·黑色·白丝·cosplay·制服诱惑
   https://m13khv.dzzkm.com/?channel_code=MIM13YWS
-
-👉【香蕉影视】TS伪娘·SM人妖·网红·主播·明星换脸·破处学生妹
-  https://drraaimx.fu7bs1drxezn.com:6969/e/1/MIM1AYWS
-
-👉【麻袋视频】华语AV·强档节目·情色生活·不间断轮播
-  https://zengtreg.ftczunzetgjd.top:6969/e/6/MIM06YWS
