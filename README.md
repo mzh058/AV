@@ -15,16 +15,16 @@ TG导航：https://t.me/TBBAD
   https://bs2806.trevovalkrespexil.com/bk/15637/ofyw1hjsq
 
 👉【稀幼18禁】稀幼萝莉聚集地，陪聊约炮，每日更新600部
-  https://m3zas.dzzkm.com/?channel_code=MILLAYWS
+  https://m3tpe.gzcjxf.com/?channel_code=MILLAYWS
 
 👉【快手成人版】成人版快手，最全资源 经典
-  https://m4mmk.dzzkm.com/?channel_code=MIKSAYWS
+  https://o04ioz.akgrbr9slk.top/?channel_code=MIKSAYWS
 
 👉【抖阴破解版】稀有视频资源，你懂得，免费观看 
-  https://m5lrk.dzzkm.com/?channel_code=MIDYAYW1
+  https://m5pqw.gzcjxf.com/?channel_code=MIDYAYW1
 
 👉【抖阴国际】TikTok抖音国际成人视频，全网独家更新最快
-  https://m9jdi.dzzkm.com/?channel_code=MIM09YWS
+  https://m9tao.gzcjxf.com/?channel_code=MIM09YWS
 
 👉【成人优酷】清纯萝莉·JK·黑色·白丝·cosplay·制服诱惑
-  https://m13khv.dzzkm.com/?channel_code=MIM13YWS
+  https://m13jdc.gzcjxf.com/?channel_code=MIM13YWS
