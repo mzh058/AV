@@ -1,1 +1,774 @@
 
+port: 7890
+socks-port: 7891
+mixed-port: 7892
+allow-lan: false
+bind-address: '*'
+mode: rule
+log-level: info
+ipv6: false
+find-process-mode: strict
+external-controller: '127.0.0.1:9090'
+profile:
+  store-selected: true
+  store-fake-ip: true
+unified-delay: true
+tcp-concurrent: true
+global-client-fingerprint: chrome
+ntp:
+  enable: true
+  write-to-system: false
+  server: ntp.aliyun.com
+  port: 123
+  interval: 30
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+dns:
+  enable: true
+  listen: ':53'
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter-mode: blacklist
+  prefer-h3: false
+  respect-rules: true
+  use-hosts: false
+  use-system-hosts: false
+  ipv6: true
+  fake-ip-filter:
+    - '*.lan'
+    - '*.local'
+    - '*.arpa'
+    - 'time.*.com'
+    - 'ntp.*.com'
+    - +.market.xiaomi.com
+    - localhost.ptlogin2.qq.com
+    - '*.msftncsi.com'
+    - www.msftconnecttest.com
+  default-nameserver:
+    - system
+    - 223.6.6.6
+    - 8.8.8.8
+    - '2400:3200::1'
+    - '2001:4860:4860::8888'
+  nameserver:
+    - 'https://doh.pub/dns-query'
+    - 'https://dns.alidns.com/dns-query'
+    - 8.8.8.8
+  direct-nameserver:
+    - 'https://doh.pub/dns-query'
+    - 'https://dns.alidns.com/dns-query'
+    - 223.5.5.5
+    - 119.29.29.29
+  direct-nameserver-follow-policy: true
+  fallback:
+    - 'https://1.1.1.1/dns-query'
+    - 'https://8.8.8.8/dns-query'
+    - 'https://dns.google/dns-query'
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+    domain:
+      - +.google.com
+      - +.facebook.com
+      - +.youtube.com
+      - +.twitter.com
+      - +.github.com
+  proxy-server-nameserver:
+    - 'https://doh.pub/dns-query'
+    - 'https://dns.alidns.com/dns-query'
+    - 'tls://223.5.5.5'
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  strict-route: true
+  dns-hijack:
+    - 'any:53'
+  device: SakuraiTunnel
+  mtu: 1500
+  endpoint-independent-nat: true
+proxies:
+  -
+    name: US-N-1
+    type: vless
+    server: nus1.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: US-N-2
+    type: vless
+    server: nus2.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: US-N-3
+    type: vless
+    server: nus3.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: US-N-4
+    type: vless
+    server: nus4.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: US-N-5
+    type: vless
+    server: nus5.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: JP-N-1
+    type: vless
+    server: njp1.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: JP-N-2
+    type: vless
+    server: njp2.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: JP-N-3
+    type: vless
+    server: njp3.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: JP-N-4
+    type: vless
+    server: njp4.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: JP-N-5
+    type: vless
+    server: njp5.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: SG-N-1
+    type: vless
+    server: nsg1.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: SG-N-2
+    type: vless
+    server: nsg2.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: SG-N-3
+    type: vless
+    server: nsg3.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: SG-N-4
+    type: vless
+    server: nsg4.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: SG-N-5
+    type: vless
+    server: nsg5.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: HK-N-住宅-1
+    type: vless
+    server: nhk1.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: HK-N-住宅-2
+    type: vless
+    server: nhk2.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: HK-N-住宅-3
+    type: vless
+    server: nhk3.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: HK-N-住宅-4
+    type: vless
+    server: nhk4.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: TW-N-住宅-1
+    type: vless
+    server: ntw1.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: TW-N-住宅-2
+    type: vless
+    server: ntw2.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: TW-N-住宅-3
+    type: vless
+    server: ntw3.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: TW-N-住宅-4
+    type: vless
+    server: ntw4.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: TW-N-住宅-5
+    type: vless
+    server: ntw5.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: TW-N-住宅-6
+    type: vless
+    server: ntw6.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: TW-N-住宅-7
+    type: vless
+    server: ntw7.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: TW-N-住宅-8
+    type: vless
+    server: ntw8.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: TW-N-住宅-9
+    type: vless
+    server: ntw9.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: TW-N-住宅-10
+    type: vless
+    server: ntw10.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: KR-N-1
+    type: vless
+    server: nkr1.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: KR-N-2
+    type: vless
+    server: nkr2.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: KR-N-3
+    type: vless
+    server: nkr3.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: KR-N-4
+    type: vless
+    server: nkr4.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: KR-N-5
+    type: vless
+    server: nkr5.sncet.com
+    port: 443
+    uuid: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    packet-encoding: xudp
+    client-fingerprint: chrome
+    tls: true
+    skip-cert-verify: false
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+      short-id: c098ebc711a73b41
+    network: tcp
+    flow: xtls-rprx-vision
+  -
+    name: HK-N-1
+    type: hysteria2
+    server: nhkaws1.sncet.com
+    port: 443
+    password: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    skip-cert-verify: false
+    sni: nhkaws1.sncet.com
+  -
+    name: HK-N-2
+    type: hysteria2
+    server: nhkaws2.sncet.com
+    port: 443
+    password: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    skip-cert-verify: false
+    sni: nhkaws1.sncet.com
+  -
+    name: HK-N-3
+    type: hysteria2
+    server: nhkaws3.sncet.com
+    port: 443
+    password: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    skip-cert-verify: false
+    sni: nhkaws1.sncet.com
+  -
+    name: HK-N-4
+    type: hysteria2
+    server: nhkaws4.sncet.com
+    port: 443
+    password: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    skip-cert-verify: false
+    sni: nhkaws1.sncet.com
+  -
+    name: HK-N-5
+    type: hysteria2
+    server: nhkaws5.sncet.com
+    port: 443
+    password: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    skip-cert-verify: false
+    sni: nhkaws1.sncet.com
+  -
+    name: JP-U-1
+    type: hysteria2
+    server: ujp1.sncet.com
+    port: 443
+    password: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    skip-cert-verify: false
+    sni: ujp5.sncet.com
+    obfs: salamander
+    obfs-password: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+  -
+    name: JP-U-2
+    type: hysteria2
+    server: ujp2.sncet.com
+    port: 443
+    password: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    skip-cert-verify: false
+    sni: ujp5.sncet.com
+    obfs: salamander
+    obfs-password: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+  -
+    name: JP-U-3
+    type: hysteria2
+    server: ujp3.sncet.com
+    port: 443
+    password: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    skip-cert-verify: false
+    sni: ujp5.sncet.com
+    obfs: salamander
+    obfs-password: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+  -
+    name: JP-U-4
+    type: hysteria2
+    server: ujp4.sncet.com
+    port: 443
+    password: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    skip-cert-verify: false
+    sni: ujp5.sncet.com
+    obfs: salamander
+    obfs-password: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
+  -
+    name: JP-U-5
+    type: hysteria2
+    server: ujp5.sncet.com
+    port: 443
+    password: 72B670FF-7ABD-4C34-A1B2-4C4A0EFC2AF6
+    udp: true
+    skip-cert-verify: false
+    sni: ujp5.sncet.com
+    obfs: salamander
+    obfs-password: xoevj_ScZaJZwJAqzFIfQj92tZClCdHumzS_F8yl03w
