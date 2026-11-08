@@ -3,13 +3,13 @@
 TG导航：https://t.me/TBBAD
 
 👉【杏吧】亚洲最大成人社区
-  https://yyd.bfltdvsobc.com/0998e2/ofyw1xb
+  https://vmsr.yfwmq3vgjz.com/0998e2/ofyw1xb
 
 👉【抖阴】AI女友 角色扮演 热门视频免费看
-  https://ci9khn8t5pqh37depz4rvwrq8.com/yj/201138/1dgmisq10ny2
+  https://z1k.v7q2m9x4k6r8t3p.com/yj/201138/1dgmisq10ny2
 
 👉【糖心vlog】何惧操.随便射
-  https://v2r.x2q8nr5v9mk7t4p.com/hy/208045/ofyw1tx
+  https://okm823q.alw77xr.com/hy/208045/ofyw1tx
 
 👉【哔咔漫画】福利姬成年人的二次元世界
   https://d1eadib1nwo1ig.cloudfront.net/?appId=30&dc=ofyw1bk
